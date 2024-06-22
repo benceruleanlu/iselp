@@ -25,7 +25,7 @@ const Page = () => {
         alt='Greenery and flowers on a low sun backdrop.'
         width={400}
         height={800}
-        className='rounded-lg ml-20 self-auto object-cover'
+        className='rounded-lg ml-20 self-auto object-cover hidden xl:block'
       />
     </div>
   );

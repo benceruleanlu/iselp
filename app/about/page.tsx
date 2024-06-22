@@ -20,7 +20,7 @@ const Page = () => {
         alt='Squirrel on a tree looking at the camera'
         width={400}
         height={800}
-        className='rounded-lg ml-20 self-auto object-cover'
+        className='rounded-lg ml-20 self-auto object-cover hidden xl:block'
       />
     </div>
   );
