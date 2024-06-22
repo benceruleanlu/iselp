@@ -4,6 +4,7 @@ import facebookLogo from '/public/facebook.png'
 import instagramLogo from '/public/instagram.png'
 import twitterLogo from '/public/twitter.png'
 import youtubeLogo from '/public/youtube.png'
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           <Image
             src={peelImage}
             alt="Logo of Peel District School Board"
-            width={500}
+            width={400}
             className='opacity-60 m-8 ml-6'
           />
         </a>
@@ -27,23 +28,22 @@ const Footer = () => {
       <div className='w-50 h-50 flex flex-row max-h-48'>
         <div className='flex flex-col mr-24 mt-8 space-y-4'>
           <p>Articles</p>
-          <p className='text-slate-600'>Article 1</p>
-          <p className='text-slate-600'>Article 2</p>
-          <p className='text-slate-600'>Article 3</p>
+          <Link href="/portrait-of-a-learner-engaged-in-iselp" className='text-slate-600 transition duration-300 ease-in-out transform hover:scale-105'>Portrait</Link>
+          <Link href="/iselp-and-other-exceptionalities-or-diagnoses" className='text-slate-600 transition duration-300 ease-in-out transform hover:scale-105'>Dual Ex.</Link>
+          <Link href="/creating-an-iselp-individual-education-plan" className='text-slate-600 transition duration-300 ease-in-out transform hover:scale-105'>IEPs</Link>
         </div>
 
         <div className='flex flex-col mr-24 mt-8 space-y-4'>
-          <p className='invisible'>Articles</p> {/* Invisible text hotfix to maintain spacing*/}
-          <p className='text-slate-600'>Article 4</p>
-          <p className='text-slate-600'>Article 5</p>
-          <p className='text-slate-600'>Article 6</p>
+          <p className='invisible'>Articles</p> {/* Invisible text to maintain spacing*/}
+          <Link href="/the-role-of-the-classroom-teacher-in-iselp" className='text-slate-600 transition duration-300 ease-in-out transform hover:scale-105'>Teachers</Link>
+          <Link href="/the-role-school-based-support-staff-in-iselp" className='text-slate-600 transition duration-300 ease-in-out transform hover:scale-105'>Sup. Staff</Link>
         </div>
 
         <div className='flex flex-col mr-16 mt-8 space-y-4'>
           <p>Other</p>
-          <p className='text-slate-600'>Resources</p>
-          <p className='text-slate-600'>About</p>
-          <p className='text-slate-600'>Help</p>
+          <Link href="/references-resources-and-further-reading" className='text-slate-600 transition duration-300 ease-in-out transform hover:scale-105'>Resources</Link>
+          <Link href="/about" className='text-slate-600 transition duration-300 ease-in-out transform hover:scale-105'>About</Link>
+          <Link href="/help" className='text-slate-600 transition duration-300 ease-in-out transform hover:scale-105'>Help</Link>
         </div>
       </div>
     </div>
