@@ -6,9 +6,9 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <main className='flex flex-col'>
-      <div className='bg-[#0066CC] text-slate-50 flex flex-col items-center px-[18vw] text-center pt-[10vh] pb-[7vh] space-y-16'>
-        <p className='text-7xl font-bold max-w-[50vw]'>What would you like to learn today?</p>
-        <div className='bg-slate-50 text-slate-700 rounded-xl p-4 min-w-[42vw] flex flex-row justify-between'>
+      <div className='bg-[#0066CC] text-slate-50 flex flex-col items-center px-[10vw] md:px-[18vw] text-center pt-[7vh] md:pt-[10vh] pb-[7vh] space-y-8 md:space-y-16'>
+        <p className='text-4xl md:text-5xl lg:text-7xl font-bold max-w-[90vw] md:max-w-[70vw]'>What would you like to learn today?</p>
+        <div className='bg-slate-50 text-slate-700 rounded-xl p-4 min-w-[60vw] lg:min-w-[42vw] flex flex-row justify-between'>
           <p className='text-left'>Search</p>
           <Image 
             src={searchIcon}
@@ -19,12 +19,12 @@ export default function Home() {
         <Link href="/help" className='underline'>How to use this resource --&gt;</Link>
       </div>
 
-      <div className='text-center mt-16 mb-10 max-w-[25vw] mx-auto -mb'>
+      <div className='text-center mt-16 mb-10 max-w-[90vw] md:max-w-[40vw] mx-auto -mb'>
         <p className='font-bold text-5xl text-slate-950 mb-4'>ISELP Articles</p>
         <p className='text-slate-500 text-lg'>Search and browse at your leisure.</p>
       </div>
 
-      <div className='flex flex-row flex-wrap max-w-[90vw] mx-auto justify-center mb-10'>
+      <div className='flex flex-row flex-wrap mx-auto justify-center mb-10'>
         <Card
           title='Portrait of a Learner Engaged in ISELP'
           subtitle='Learn how to understand and support gifted learners, including their characteristics and potential challenges.'
