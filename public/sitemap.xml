@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://iselp.vercel.app/</loc>
+  <lastmod>2024-06-26T12:39:40+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://iselp.vercel.app/references-resources-and-further-reading</loc>
+  <lastmod>2024-06-26T12:39:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iselp.vercel.app/about</loc>
+  <lastmod>2024-06-26T12:39:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iselp.vercel.app/help</loc>
+  <lastmod>2024-06-26T12:39:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iselp.vercel.app/portrait-of-a-learner-engaged-in-iselp</loc>
+  <lastmod>2024-06-26T12:39:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iselp.vercel.app/iselp-and-other-exceptionalities-or-diagnoses</loc>
+  <lastmod>2024-06-26T12:39:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iselp.vercel.app/creating-an-iselp-individual-education-plan</loc>
+  <lastmod>2024-06-26T12:39:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iselp.vercel.app/the-role-of-the-classroom-teacher-in-iselp</loc>
+  <lastmod>2024-06-26T12:39:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iselp.vercel.app/the-role-school-based-support-staff-in-iselp</loc>
+  <lastmod>2024-06-26T12:39:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
