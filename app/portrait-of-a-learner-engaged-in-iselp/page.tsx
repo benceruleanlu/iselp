@@ -12,12 +12,12 @@ const Page = () => {
         <p className='font-semibold text-3xl'>Summary and Highlights</p>
         <hr />
 
-        <p>The Ministry of Education defines Giftedness as “[a]n unusually advanced degree of general intellectual ability that requires differentiated learning experiences of a depth and breadth beyond those normally provided in the regular school program to satisfy the level of educational potential indicated” (Ministry of Education, 2017). For the purposes of the Peel District School Board, this is the definition that is used to describe our Gifted learners.</p>
+        <p>The Ministry of Education defines Giftedness as &ldquo;[a]n unusually advanced degree of general intellectual ability that requires differentiated learning experiences of a depth and breadth beyond those normally provided in the regular school program to satisfy the level of educational potential indicated&rdquo; (Ministry of Education, 2017). For the purposes of the Peel District School Board, this is the definition that is used to describe our Gifted learners.</p>
         <p>It is important to note the other definitions of Giftedness that cite characteristics such as:</p>
 
         <ol className='list-disc pl-12'>
-          <li>“asynchronous development” (Vuyk, Kerr, & Thomas, 2016; Silverman, 1996);</li>
-          <li>a “physiological reality” (Gifted Development Centre); and,</li>
+          <li>&ldquo;asynchronous development&rdquo; (Vuyk, Kerr, & Thomas, 2016; Silverman, 1996);</li>
+          <li>a &ldquo;physiological reality&rdquo; (Gifted Development Centre); and,</li>
           <li>exceptionally high ability regardless of academic performance (Peterson, 2015).</li>
         </ol>
 
@@ -37,14 +37,14 @@ const Page = () => {
 
         <p className='font-semibold text-xl'>Affective qualities of Gifted learners:</p>
         
-        <p>Gifted learners often perceive and engage with the world differently than their non-Gifted peers. While many of their ‘gifts’ present a multitude of opportunities, it is important to note that in some cases these ‘gifts’ might make students more vulnerable to academic anxiety, social-emotional problems, and Gifted underachievement (Stornelli, Flett, & Hewitt, 2009; Christopher & Shewmaker, 2010;. Gaesser, 2018).</p>
+        <p>Gifted learners often perceive and engage with the world differently than their non-Gifted peers. While many of their &lsquo;gifts&rsquo; present a multitude of opportunities, it is important to note that in some cases these &lsquo;gifts&rsquo; might make students more vulnerable to academic anxiety, social-emotional problems, and Gifted underachievement (Stornelli, Flett, & Hewitt, 2009; Christopher & Shewmaker, 2010;. Gaesser, 2018).</p>
 
         <p className='font-semibold text-xl'>Gifted underachievement:</p>
 
         <p>Some Gifted students underperform compared to the evidence that they are capable of high achievement. Research offers a variety of reasons to explain Gifted underachievement including, but not limited to:</p>
 
         <ol className='list-disc pl-12'>
-          <li>students’ fixed mindset about giftedness such as perfectionism or rebellion;</li>
+          <li>students&rsquo; fixed mindset about giftedness such as perfectionism or rebellion;</li>
           <li>feeling unsupported by parents, teachers and/or non-Gifted peers; and,</li>
           <li>misperceptions about the value of student work such as varied interpretations of depth and breadth of learning (Rimm, 1986; Roberts, Inman & Robins, 2022).</li>
         </ol>
@@ -55,17 +55,17 @@ const Page = () => {
 
         <p className='font-semibold text-xl'>What is Giftedness?</p>
 
-        <p>Giftedness is a complex exceptionality. As such, there are a variety of definitions that are used to describe “Giftedness” across a variety of resources. There is no universally accepted definition of gifted. Some definitions are functional and relate to a selection process (e.g., scores, percentiles) and some clarify the nature of giftedness (e.g., domains, affinities). The Ministry of Education’s definition of Giftedness is: “an unusually advanced degree of general intellectual ability that requires differentiated learning experiences of a depth and breadth beyond those normally provided.” This is the definition under which the Peel District School Board and schools throughout the province use to determine “Giftedness.” </p>
+        <p>Giftedness is a complex exceptionality. As such, there are a variety of definitions that are used to describe &ldquo;Giftedness&rdquo; across a variety of resources. There is no universally accepted definition of gifted. Some definitions are functional and relate to a selection process (e.g., scores, percentiles) and some clarify the nature of giftedness (e.g., domains, affinities). The Ministry of Education&apos;s definition of Giftedness is: &ldquo;an unusually advanced degree of general intellectual ability that requires differentiated learning experiences of a depth and breadth beyond those normally provided.&rdquo; This is the definition under which the Peel District School Board and schools throughout the province use to determine &ldquo;Giftedness.&rdquo; </p>
 
         <p>However, it is important to note the other definitions of Giftedness that cite characteristics such as:</p>
 
         <ol className='list-disc pl-12'>
-          <li>“asynchronous development” (Vuyk, Kerr, & Thomas, 2016; Silverman, 1996);</li>
-          <li>a “physiological reality” (Gifted Development Centre); and,</li>
+          <li>&ldquo;asynchronous development&rdquo; (Vuyk, Kerr, & Thomas, 2016; Silverman, 1996);</li>
+          <li>a &ldquo;physiological reality&rdquo; (Gifted Development Centre); and,</li>
           <li>exceptionally high ability regardless of academic performance (Peterson, 2015).</li>
         </ol>
 
-        <p>Vuky, Kerr, & Thomas (2016) present a definition of Giftedness that incorporates a wide swath of the research into Giftedness, defining it as “asynchronous development in which advanced cognitive abilities and heightened intensity combine to create inner experiences and awareness that are qualitatively different from the norm” (Vuyk, Kerr, & Thomas, 2016, pg. 60). Most importantly, though, as there are no two Gifted learners who are exactly alike, there is no single definition of Giftedness (Kennedy & Farley, 2017).</p>
+        <p>Vuky, Kerr, & Thomas (2016) present a definition of Giftedness that incorporates a wide swath of the research into Giftedness, defining it as &ldquo;asynchronous development in which advanced cognitive abilities and heightened intensity combine to create inner experiences and awareness that are qualitatively different from the norm&rdquo; (Vuyk, Kerr, & Thomas, 2016, pg. 60). Most importantly, though, as there are no two Gifted learners who are exactly alike, there is no single definition of Giftedness (Kennedy & Farley, 2017).</p>
 
         <div className='flex w-full justify-center py-1'><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L8OlKSNQAIU?si=fUTpBWElTGmS9qGo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div>
 
@@ -103,7 +103,7 @@ const Page = () => {
 
         <p className='font-semibold text-xl'>Affective qualities of Gifted learners</p>
 
-        <p>Gifted learners often perceive and engage with the world differently than their non-Gifted peers. While many of their ‘gifts’ present a multitude of opportunities, it is important to note that in some cases these ‘gifts’ might make students more vulnerable to academic anxiety, social-emotional problems, and Gifted underachievement (Stornelli, Flett, & Hewitt, 2009; Christopher & Shewmaker, 2010;. Gaesser, 2018).  However, with informed adults who understand their unique needs, Gifted students can flourish.</p>
+        <p>Gifted learners often perceive and engage with the world differently than their non-Gifted peers. While many of their &lsquo;gifts&rsquo; present a multitude of opportunities, it is important to note that in some cases these &lsquo;gifts&rsquo; might make students more vulnerable to academic anxiety, social-emotional problems, and Gifted underachievement (Stornelli, Flett, & Hewitt, 2009; Christopher & Shewmaker, 2010;. Gaesser, 2018).  However, with informed adults who understand their unique needs, Gifted students can flourish.</p>
 
         <p>Researchers have investigated anxiety as it specifically pertains to Gifted learners and identified five ways it can be exhibited by some Gifted learners:</p>
 
@@ -121,7 +121,7 @@ const Page = () => {
         <p className='font-semibold text-3xl'>Further Reading and Resources</p>
         <hr />
 
-        <p>Here’s some helpful resources that you can access to learn more about the portrait of a Gifted learner:</p>
+        <p>Here&rsquo;s some helpful resources that you can access to learn more about the portrait of a Gifted learner:</p>
 
         <p className='font-semibold text-xl'>Resources</p>
 
@@ -141,7 +141,7 @@ const Page = () => {
 
         <p className='font-semibold text-xl'>Articles</p>
 
-        <p><a href="https://www.verywellfamily.com/dabrowskis-overexcitabilities-in-gifted-children-1449118" target='_blank' className='text-[#0066CC] underline'>Dabrowski’s Overexcitabilities in Gifted Children</a></p>
+        <p><a href="https://www.verywellfamily.com/dabrowskis-overexcitabilities-in-gifted-children-1449118" target='_blank' className='text-[#0066CC] underline'>Dabrowski&rsquo;s Overexcitabilities in Gifted Children</a></p>
 
         <p><a href="https://gifteddevelopment.org/musings/newinsights" target='_blank' className='text-[#0066CC] underline'>Further information on OEs</a></p>
 
