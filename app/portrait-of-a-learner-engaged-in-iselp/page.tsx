@@ -55,7 +55,7 @@ const Page = () => {
 
         <p className='font-semibold text-xl'>What is Giftedness?</p>
 
-        <p>Giftedness is a complex exceptionality. As such, there are a variety of definitions that are used to describe &ldquo;Giftedness&rdquo; across a variety of resources. There is no universally accepted definition of gifted. Some definitions are functional and relate to a selection process (e.g., scores, percentiles) and some clarify the nature of giftedness (e.g., domains, affinities). The Ministry of Education&apos;s definition of Giftedness is: &ldquo;an unusually advanced degree of general intellectual ability that requires differentiated learning experiences of a depth and breadth beyond those normally provided.&rdquo; This is the definition under which the Peel District School Board and schools throughout the province use to determine &ldquo;Giftedness.&rdquo; </p>
+        <p>Giftedness is a complex exceptionality. As such, there are a variety of definitions that are used to describe &ldquo;Giftedness&rdquo; across a variety of resources. There is no universally accepted definition of gifted. Some definitions are functional and relate to a selection process (e.g., scores, percentiles) and some clarify the nature of giftedness (e.g., domains, affinities). The Ministry of Education&#39;s definition of Giftedness is: &ldquo;an unusually advanced degree of general intellectual ability that requires differentiated learning experiences of a depth and breadth beyond those normally provided.&rdquo; This is the definition under which the Peel District School Board and schools throughout the province use to determine &ldquo;Giftedness.&rdquo; </p>
 
         <p>However, it is important to note the other definitions of Giftedness that cite characteristics such as:</p>
 
@@ -99,7 +99,7 @@ const Page = () => {
 
         <p>Researchers acknowledge a number of misconceptions about Gifted students that are identified in the chart below, along with considerations for teaching practice.</p>
 
-        <p className='border border-dashed border-black'>PLACEHOLDER FOR TABLE HERE. I haven't seen a table on internet websites since the 2000s... Might take a while styling it.</p>
+        <p className='border border-dashed border-black'>PLACEHOLDER FOR TABLE HERE. I haven&apos;t seen a table on internet websites since the 2000s... Might take a while styling it.</p>
 
         <p className='font-semibold text-xl'>Affective qualities of Gifted learners</p>
 
@@ -141,7 +141,7 @@ const Page = () => {
 
         <p className='font-semibold text-xl'>Articles</p>
 
-        <p><a href="https://www.verywellfamily.com/dabrowskis-overexcitabilities-in-gifted-children-1449118" target='_blank' className='text-[#0066CC] underline'>Dabrowski&rsquo;s Overexcitabilities in Gifted Children</a></p>
+        <p><a href="https://www.verywellfamily.com/dabrowskis-overexcitabilities-in-gifted-children-1449118" target='_blank' className='text-[#0066CC] underline'>Dabrowski&&apos;s Overexcitabilities in Gifted Children</a></p>
 
         <p><a href="https://gifteddevelopment.org/musings/newinsights" target='_blank' className='text-[#0066CC] underline'>Further information on OEs</a></p>
 
