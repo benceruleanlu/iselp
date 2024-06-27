@@ -149,18 +149,18 @@ const Page = () => {
                 <tbody>
                   <tr className="bg-white border-b border-gray-200">
                     <td className="py-4 px-6">
-                      <span className='font-bold italic'>"Additional tasks and rote learning are appropriate means of enrichments." </span><a href="#end1" className="text-xs text-[#0066CC]" aria-label="Footnote: Schultz, 2018; Schultz, 2018; Gomez-Arizaga et al, 2020"><sup id='start1'>[1]</sup></a>
+                      <span className='font-bold italic'>&ldquo;Additional tasks and rote learning are appropriate means of enrichments.&rdquo; </span><a href="#end1" className="text-xs text-[#0066CC]" aria-label="Footnote: Schultz, 2018; Schultz, 2018; Gomez-Arizaga et al, 2020"><sup id='start1'>[1]</sup></a>
                     </td>
                     <td className="py-4 px-6">
                       Additional work will often be received as punitive as opposed to an opportunity and will often result in resentment of the identification.<a href="#end2" className="text-xs text-[#0066CC]" aria-label="Footnote: Gomez-Arizaga, et al., 2020"><sup id='start2'>[2]</sup></a>
                     </td>
                     <td className="py-4 px-6">
-                      Consider offering class tasks that have a “low floor and high ceiling” (e.g. an activity that all students can easily begin, based on their own understanding of the material, and that can be worked on according to each student&rsquo;s level of engagement and desire to go deeper).<br /><br />Draw on students' interests to engage them in learning as opposed to giving "extra questions' or additional rote tasks.
+                      Consider offering class tasks that have a &ldquo;low floor and high ceiling&rdquo; (e.g. an activity that all students can easily begin, based on their own understanding of the material, and that can be worked on according to each student&rsquo;s level of engagement and desire to go deeper).<br /><br />Draw on students&apos; interests to engage them in learning as opposed to giving &ldquo;extra questions&rdquo; or additional rote tasks.
                     </td>
                   </tr>
                   <tr className="bg-gray-50 border-b border-gray-200">
                     <td className="py-4 px-6">
-                      <span className='font-bold italic'>"Gifted learners will be academically successful, regardless of their learning experiences, and therefore do not need services by their school." </span><a href="#end3" className="text-xs text-[#0066CC]" aria-label="Footnote: Gomez-Arizaga, Valdivia-Lefort, Castillo-Hermosilla, Hébert, & Leonor Conejeros-Solar, 2020"><sup id='start3'>[3]</sup></a>
+                      <span className='font-bold italic'>&ldquo;Gifted learners will be academically successful, regardless of their learning experiences, and therefore do not need services by their school.&rdquo; </span><a href="#end3" className="text-xs text-[#0066CC]" aria-label="Footnote: Gomez-Arizaga, Valdivia-Lefort, Castillo-Hermosilla, Hébert, & Leonor Conejeros-Solar, 2020"><sup id='start3'>[3]</sup></a>
                     </td>
                     <td className="py-4 px-6">
                       Gifted students engage with the world differently than their non-Gifted peers.<br /><br />Absence of challenge can translate into lack of motivation, frustration, and even disengagement in the regular classroom.<a href="#end4" className="text-xs text-[#0066CC]" aria-label="Footnote: Gomez-Arizaga, et al., 2020"><sup id='start4'>[4]</sup></a>
@@ -171,7 +171,7 @@ const Page = () => {
                   </tr>
                   <tr className="bg-white border-b border-gray-200">
                     <td className="py-4 px-6">
-                      <span className='font-bold italic'>"Gifted learners are a homogenous group, and therefore will all benefit equally from the same supports." </span><a href="#end5" className="text-xs text-[#0066CC]" aria-label="Footnote: Schultz, 2018"><sup id='start5'>[5]</sup></a>
+                      <span className='font-bold italic'>&ldquo;Gifted learners are a homogenous group, and therefore will all benefit equally from the same supports.&rdquo; </span><a href="#end5" className="text-xs text-[#0066CC]" aria-label="Footnote: Schultz, 2018"><sup id='start5'>[5]</sup></a>
                     </td>
                     <td className="py-4 px-6">
                       Gifted learners exhibit unique characteristics, strengths, and weaknesses.<a href="#end6" className="text-xs text-[#0066CC]" aria-label="Footnote: Schultz, 2018; Lamont, 2012"><sup id='start6'>[6]</sup></a>
@@ -182,7 +182,7 @@ const Page = () => {
                   </tr>
                   <tr className="bg-gray-50 border-b border-gray-200">
                     <td className="py-4 px-6">
-                      <span className='font-bold italic'>"Gifted students are well adjusted and efficacious." </span><a href="#end7" className="text-xs text-[#0066CC]" aria-label="Footnote: NAGC, 2018"><sup id='start7'>[7]</sup></a>
+                      <span className='font-bold italic'>&ldquo;Gifted students are well adjusted and efficacious.&rdquo; </span><a href="#end7" className="text-xs text-[#0066CC]" aria-label="Footnote: NAGC, 2018"><sup id='start7'>[7]</sup></a>
                     </td>
                     <td className="py-4 px-6">
                       A number of researchers agree that Gifted learners can encounter a number of anxiety producing stressors throughout their day.<a href="#end8" className="text-xs text-[#0066CC]" aria-label="Footnote: Gaesser, 2018; Coleman, 2012; Kennedy & Farley, 2017"><sup id='start8'>[8]</sup></a>
@@ -193,7 +193,7 @@ const Page = () => {
                   </tr>
                   <tr className="bg-white border-b border-gray-200">
                     <td className="py-4 px-6">
-                      <span className='font-bold italic'>"Gifted students are arrogant." </span><a href="#end9" className="text-xs text-[#0066CC]" aria-label="Footnote: O&rsquo;Connor, 2005"><sup id='start9'>[9]</sup></a>
+                      <span className='font-bold italic'>&ldquo;Gifted students are arrogant.&rdquo; </span><a href="#end9" className="text-xs text-[#0066CC]" aria-label="Footnote: O&rsquo;Connor, 2005"><sup id='start9'>[9]</sup></a>
                     </td>
                     <td className="py-4 px-6">
                       Sometimes Gifted students struggle with sharing a differing opinion.
