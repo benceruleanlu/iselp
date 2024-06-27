@@ -1,6 +1,30 @@
+'use client';
+
 import Image from 'next/image'
+import { useEffect } from 'react';
 
 const Page = () => {
+  useEffect(() => {
+    const handleClick = (event: any) => {
+      event.preventDefault();
+      const hash = event.currentTarget.getAttribute('href');
+      const targetElement = document.querySelector(hash);
+      if (targetElement) {
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center',
+        });
+      }
+    };
+
+    const links = document.querySelectorAll('a[href^="#"]');
+    links.forEach(link => link.addEventListener('click', handleClick));
+
+    return () => {
+      links.forEach(link => link.removeEventListener('click', handleClick));
+    };
+  }, []);
+
   return (
     <div className='flex flex-col justify-between w-10/12 mx-auto my-16 max-w-screen-lg'>
       <p className='font-bold text-5xl text-slate-950 mb-4'>Portrait of a Learner Engaged in ISELP</p>
@@ -99,7 +123,80 @@ const Page = () => {
 
         <p>Researchers acknowledge a number of misconceptions about Gifted students that are identified in the chart below, along with considerations for teaching practice.</p>
 
-        <p className='border border-dashed border-black'>PLACEHOLDER FOR TABLE HERE. I haven&apos;t seen a table on internet websites since the 2000s... Might take a while styling it.</p>
+        <div className="overflow-x-auto relative shadow-md sm:rounded-lg bg-white">
+          <table className="w-full text-sm text-left text-gray-700">
+            <thead className="text-xs text-gray-700 uppercase bg-gray-100">
+              <tr>
+                <th scope="col" className="py-3 px-6 text-center">
+                  Misconception
+                </th>
+                <th scope="col" className="py-3 px-6 text-center">
+                  Truth
+                </th>
+                <th scope="col" className="py-3 px-6 text-center">
+                  Consideration for Teaching
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="bg-white border-b border-gray-200">
+                <td className="py-4 px-6">
+                  <span className='font-bold italic'>"Additional tasks and rote learning are appropriate means of enrichments." </span><a href="#end1" className="text-xs text-[#0066CC]" aria-label="Footnote: Schultz, 2018; Schultz, 2018; Gomez-Arizaga et al, 2020"><sup id='start1'>[1]</sup></a>
+                </td>
+                <td className="py-4 px-6">
+                  Additional work will often be received as punitive as opposed to an opportunity and will often result in resentment of the identification.<a href="#end2" className="text-xs text-[#0066CC]" aria-label="Footnote: Gomez-Arizaga, et al., 2020"><sup id='start2'>[2]</sup></a>
+                </td>
+                <td className="py-4 px-6">
+                  Consider offering class tasks that have a “low floor and high ceiling” (e.g. an activity that all students can easily begin, based on their own understanding of the material, and that can be worked on according to each student&rsquo;s level of engagement and desire to go deeper).<br /><br />Draw on students' interests to engage them in learning as opposed to giving "extra questions' or additional rote tasks.
+                </td>
+              </tr>
+              <tr className="bg-gray-50 border-b border-gray-200">
+                <td className="py-4 px-6">
+                  <span className='font-bold italic'>"Gifted learners will be academically successful, regardless of their learning experiences, and therefore do not need services by their school." </span><a href="#end3" className="text-xs text-[#0066CC]" aria-label="Footnote: Gomez-Arizaga, Valdivia-Lefort, Castillo-Hermosilla, Hébert, & Leonor Conejeros-Solar, 2020"><sup id='start3'>[3]</sup></a>
+                </td>
+                <td className="py-4 px-6">
+                  Gifted students engage with the world differently than their non-Gifted peers.<br /><br />Absence of challenge can translate into lack of motivation, frustration, and even disengagement in the regular classroom.<a href="#end4" className="text-xs text-[#0066CC]" aria-label="Footnote: Gomez-Arizaga, et al., 2020"><sup id='start4'>[4]</sup></a>
+                </td>
+                <td className="py-4 px-6">
+                  Teachers should be aware that Gifted students may need supports that attend to affective aspects of education. (see definition of <a href="https://docs.google.com/document/d/19JGCfusp80INEaoEr3Kflopd67AFguzkGtJh-I2Y7Lg/edit#heading=h.maxz3sc5rj5y" target='_blank' className='text-[#0066CC] underline'>affective qualities</a>)<br /><br />Gifted students require work that is sufficiently challenging, and perceived as both meaningful and valuable.
+                </td>
+              </tr>
+              <tr className="bg-white border-b border-gray-200">
+                <td className="py-4 px-6">
+                  <span className='font-bold italic'>"Gifted learners are a homogenous group, and therefore will all benefit equally from the same supports." </span><a href="#end5" className="text-xs text-[#0066CC]" aria-label="Footnote: Schultz, 2018"><sup id='start5'>[5]</sup></a>
+                </td>
+                <td className="py-4 px-6">
+                  Gifted learners exhibit unique characteristics, strengths, and weaknesses.<a href="#end6" className="text-xs text-[#0066CC]" aria-label="Footnote: Schultz, 2018; Lamont, 2012"><sup id='start6'>[6]</sup></a>
+                </td>
+                <td className="py-4 px-6">
+                  Teachers need to determine what types of approaches will work best with a given student, with input from the student and family/caregivers.
+                </td>
+              </tr>
+              <tr className="bg-gray-50 border-b border-gray-200">
+                <td className="py-4 px-6">
+                  <span className='font-bold italic'>"Gifted students are well adjusted and efficacious." </span><a href="#end7" className="text-xs text-[#0066CC]" aria-label="Footnote: NAGC, 2018"><sup id='start7'>[7]</sup></a>
+                </td>
+                <td className="py-4 px-6">
+                  A number of researchers agree that Gifted learners can encounter a number of anxiety producing stressors throughout their day.<a href="#end8" className="text-xs text-[#0066CC]" aria-label="Footnote: Gaesser, 2018; Coleman, 2012; Kennedy & Farley, 2017"><sup id='start8'>[8]</sup></a>
+                </td>
+                <td className="py-4 px-6">
+                  Teachers need to recognize Gifted learners&rsquo; socio-emotional needs and recognize that while they may not outwardly show anxiety about school work, they may be experiencing it as a stressor.<br /><br />Teachers need to provide explicit instruction on executive functioning skills (with support from ISSP).
+                </td>
+              </tr>
+              <tr className="bg-white border-b border-gray-200">
+                <td className="py-4 px-6">
+                  <span className='font-bold italic'>"Gifted students are arrogant." </span><a href="#end9" className="text-xs text-[#0066CC]" aria-label="Footnote: O&rsquo;Connor, 2005"><sup id='start9'>[9]</sup></a>
+                </td>
+                <td className="py-4 px-6">
+                  Sometimes Gifted students struggle with sharing a differing opinion.
+                </td>
+                <td className="py-4 px-6">
+                  Gifted students sometimes need support and direct instruction to practice how to give feedback that is kind, specific, and helpful (e.g., modelling and role playing).
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <p className='font-semibold text-xl'>Affective qualities of Gifted learners</p>
 
@@ -154,6 +251,26 @@ const Page = () => {
         <p><a href="https://globalgtchatpoweredbytagt.wordpress.com/2022/04/29/using-bibliotherapy-to-support-gt-learners/" target='_blank' className='text-[#0066CC] underline'>Bibliotherapy</a></p>
 
         <p><a href="https://www.researchgate.net/publication/303600319_Using_Mindfulness-Based_Strengths_Practices_with_gifted_populations" target='_blank' className='text-[#0066CC] underline'>Mindfulness</a></p>
+
+        <p className='font-semibold text-xl'>Footnotes</p>
+
+        <p><a href="#start1" className='text-[#0066CC]'><sup id='end1'>[1]</sup></a> Schultz, 2018; Gomez-Arizaga et al, 2020</p>
+
+        <p><a href="#start2" className='text-[#0066CC]'><sup id='end2'>[2]</sup></a> Gomez-Arizaga, et al., 2020</p>
+        
+        <p><a href="#start3" className='text-[#0066CC]'><sup id='end3'>[3]</sup></a> Gomez-Arizaga, Valdivia-Lefort, Castillo-Hermosilla, Hébert, & Leonor Conejeros-Solar, 2020</p>
+
+        <p><a href="#start4" className='text-[#0066CC]'><sup id='end4'>[4]</sup></a> Gomez-Arizaga, et al., 2020</p>
+
+        <p><a href="#start5" className='text-[#0066CC]'><sup id='end5'>[5]</sup></a> Schultz, 2018</p>
+
+        <p><a href="#start6" className='text-[#0066CC]'><sup id='end6'>[6]</sup></a> Schultz, 2018; Lamont, 2012</p>
+
+        <p><a href="#start7" className='text-[#0066CC]'><sup id='end7'>[7]</sup></a> NAGC, 2018</p>
+
+        <p><a href="#start8" className='text-[#0066CC]'><sup id='end8'>[8]</sup></a> Gaesser, 2018; Coleman, 2012; Kennedy & Farley, 2017</p>
+
+        <p><a href="#start9" className='text-[#0066CC]'><sup id='end9'>[9]</sup></a> O&rsquo;Connor, 2005</p>
       </div>
     </div>
   );
