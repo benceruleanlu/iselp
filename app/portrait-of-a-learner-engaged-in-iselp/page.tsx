@@ -30,7 +30,7 @@ const Page = () => {
 
   return (
     <div className='flex flex-col justify-between w-10/12 mx-auto my-16 max-w-screen-lg'>
-      <p className='font-bold text-5xl text-slate-950 mb-4'>Portrait of a Learner Engaged in ISELP</p>
+      <p className='font-bold text-5xl text-slate-950 mb-4 '>Portrait of a Learner Engaged in ISELP</p>
       <p className='text-slate-500 text-lg mb-6'>Learn how to understand and support gifted learners, including their characteristics and potential challenges.</p>
 
       <div className='space-y-4'>

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className='flex flex-col'>
       <div className='bg-[#0066CC] text-slate-50 flex flex-col items-center px-[10vw] md:px-[18vw] text-center pt-[7vh] md:pt-[10vh] pb-[7vh] space-y-8 md:space-y-16'>
-        <p className='text-4xl md:text-5xl lg:text-7xl font-bold max-w-[90vw] md:max-w-[70vw]'>What would you like to learn today?</p>
+        <p className='text-4xl md:text-5xl lg:text-7xl font-bold max-w-[90vw] md:max-w-[70vw] tracking-tight'>What would you like to learn today?</p>
         <div className='bg-slate-50 text-slate-700 rounded-xl p-4 min-w-[60vw] lg:min-w-[42vw] flex flex-row justify-between'>
           <p className='text-left'>Search</p>
           <Image 
