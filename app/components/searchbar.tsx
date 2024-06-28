@@ -14,7 +14,7 @@ const SearchBar = () => {
 
     const redirectToLandingPage = e => { // send people to the landing page
         e.preventDefault();
-        router.push('/search-landing-page' + '?' + searchQuery);
+        router.push('/search-landing-page');
     }
 
     return (
@@ -39,14 +39,5 @@ const SearchBar = () => {
     </div>
     ); 
 }
-
-/*SearchBar.addEventListener("spacebar", (e) => {
-    console.log("SOMEHTING HAPPENED!!!")
-})*/
-
-function callAPI() {
-
-}
-
 
 export default SearchBar;

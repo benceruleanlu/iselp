@@ -29,3 +29,4 @@ export default function RootLayout({
     </html>
   );
 }
+// script for google programmable engine needs to be placed within the 'body' of a page, but seemingly cant do it when its inside of a nested thing
