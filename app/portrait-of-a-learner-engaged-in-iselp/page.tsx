@@ -15,13 +15,13 @@ const Page = () => {
         <hr className='!mb-4'/> {/* Killing myself */}
         <p><CustomLink href="#summary-and-highlights" className="font-semibold">Summary and Highlights</CustomLink></p>
         <p><CustomLink href="#affective-qualities-of-gifted-learners-1" className='ml-2'>Affective qualities of Gifted learners</CustomLink></p>
-        <p><CustomLink href="#gifted-underachievement" className='ml-2 !mb-4'>Gifted underachievement</CustomLink></p>
+        <p className='!mb-4'><CustomLink href="#gifted-underachievement" className='ml-2'>Gifted underachievement</CustomLink></p>
         <p><CustomLink href="#in-depth" className='font-semibold'>In-Depth</CustomLink></p>
         <p><CustomLink href="#what-is-giftedness" className='ml-2'>What is Giftedness?</CustomLink></p>
         <p><CustomLink href="#common-characteristics-of-gifted-learners" className='ml-2'>Common characteristics of Gifted learners</CustomLink></p>
         <p><CustomLink href="#portraits-of-gifted-and-talented" className='ml-2'>Portraits of Gifted and talented</CustomLink></p>
         <p><CustomLink href="#misconceptions-about-giftedness" className='ml-2'>Misconceptions about Giftedness</CustomLink></p>
-        <p><CustomLink href="#affective-qualities-of-gifted-learners-2" className='ml-2 !mb-4'>Affective qualities of Gifted learners</CustomLink></p>
+        <p className='!mb-4'><CustomLink href="#affective-qualities-of-gifted-learners-2" className='ml-2'>Affective qualities of Gifted learners</CustomLink></p>
         <p><CustomLink href="#further-reading-and-resources" className='font-semibold'>Further Reading and Resources</CustomLink></p>
         <p><CustomLink href="#resources" className='ml-2'>Resources</CustomLink></p>
         <p><CustomLink href="#videos" className='ml-2'>Videos</CustomLink></p>
