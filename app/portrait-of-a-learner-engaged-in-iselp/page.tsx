@@ -12,7 +12,7 @@ const Page = () => {
   return (
     <>
       <NavBar />
-      <div className='flex flex-row w-10/12 mx-auto my-16 max-w-6xl lg:space-x-16'>
+      <div className='flex flex-row w-11/12 mx-auto my-6 lg:my-16 max-w-6xl lg:space-x-16 overflow-hidden text-wrap'>
         <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'> {/* Ran out of zyn, can't make it maintainable :(( */}
           <p className='font-bold text-lg'>Contents</p>
           <hr className='!mb-4'/> {/* Killing myself */}
@@ -33,14 +33,14 @@ const Page = () => {
           <p><CustomLink href="#more-on-anxiety-as-it-pertains-to-gifted-students" className='ml-2'>More on anxiety as it pertains to Gifted students</CustomLink></p>
           <p><CustomLink href="#footnotes" className='ml-2'>Footnotes</CustomLink></p>
         </div>
-        <div className='flex flex-col'>
-          <p className='font-bold text-5xl text-slate-950 mb-4 '>Portrait of a Learner Engaged in ISELP</p>
-          <p className='text-slate-500 text-lg mb-6'>Learn how to understand and support gifted learners, including their characteristics and potential challenges.</p>
+        <div className='flex flex-col mx-auto max-w-[92vw]'>
+          <p className='font-bold text-3xl lg:text5xl text-slate-950 mb-4'>Portrait of a Learner Engaged in ISELP</p>
+          <p className='text-slate-500 lg:text-lg mb-6'>Learn how to understand and support gifted learners, including their characteristics and potential challenges.</p>
 
           <div className='space-y-4'>
             <p className='text-gray-600	text-sm italic'>Note: While this section refers specifically to Giftedness, much of the information is applicable both to students who are identified as Exceptional Intellectual - Gifted, and to those students who are engaged in ISELP, but are receiving Non-Identified Special Education services.</p>
 
-            <p className='font-semibold text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
+            <p className='font-semibold text-xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
             <hr />
 
             <p>The Ministry of Education defines Giftedness as &ldquo;[a]n unusually advanced degree of general intellectual ability that requires differentiated learning experiences of a depth and breadth beyond those normally provided in the regular school program to satisfy the level of educational potential indicated&rdquo; (Ministry of Education, 2017). For the purposes of the Peel District School Board, this is the definition that is used to describe our Gifted learners.</p>
@@ -60,7 +60,7 @@ const Page = () => {
                 width={800}
                 height={600}
                 alt='Characteristics of Gifted Learners'
-                className='rounded-lg py-6'
+                className='rounded-lg py-6 max-h-[800px] max-w-[600px] mx-auto overflow-x-auto'
               />
             </div>
 
@@ -81,7 +81,7 @@ const Page = () => {
             </ol>
 
             <br />
-            <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
+            <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
               In-Depth
               <svg className={`w-6 h-6 transform transition-transform duration-300 ${isInDepthVisible ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </p>
@@ -103,7 +103,7 @@ const Page = () => {
 
                 <p>Vuky, Kerr, & Thomas (2016) present a definition of Giftedness that incorporates a wide swath of the research into Giftedness, defining it as &ldquo;asynchronous development in which advanced cognitive abilities and heightened intensity combine to create inner experiences and awareness that are qualitatively different from the norm&rdquo; (Vuyk, Kerr, & Thomas, 2016, pg. 60). Most importantly, though, as there are no two Gifted learners who are exactly alike, there is no single definition of Giftedness (Kennedy & Farley, 2017).</p>
 
-                <div className='flex w-full justify-center py-1'><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L8OlKSNQAIU?si=fUTpBWElTGmS9qGo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div>
+                <div className='flex py-1 max-w-[560px] max-h-[315px] mx-auto'><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L8OlKSNQAIU?si=fUTpBWElTGmS9qGo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div>
 
                 <p className='font-semibold text-xl' id='common-characteristics-of-gifted-learners'>Common characteristics of Gifted learners</p>
 
@@ -117,7 +117,7 @@ const Page = () => {
                     width={800}
                     height={600}
                     alt='Characteristics of Gifted Learners'
-                    className='rounded-lg py-6'
+                    className='rounded-lg py-6 max-h-[800px] max-w-[600px] mx-auto overflow-x-auto'
                   />
                 </div>
 
@@ -135,8 +135,8 @@ const Page = () => {
 
                 <p>Researchers acknowledge a number of misconceptions about Gifted students that are identified in the chart below, along with considerations for teaching practice.</p>
 
-                <div className="overflow-x-auto relative shadow-md sm:rounded-lg bg-white">
-                  <table className="w-full text-sm text-left text-gray-700">
+                <div className="overflow-x-auto shadow-md sm:rounded-lg bg-white]">
+                  <table className="w-full text-sm text-left text-gray-700 min-w-[800px]">
                     <thead className="text-xs text-gray-700 uppercase bg-gray-100">
                       <tr>
                         <th scope="col" className="py-3 px-6 text-center">
@@ -229,7 +229,7 @@ const Page = () => {
             )}
 
             <br />
-            <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:underline' onClick={() => setIsFurtherReadingVisible(!isFurtherReadingVisible)} id='further-reading-and-resources'>
+            <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsFurtherReadingVisible(!isFurtherReadingVisible)} id='further-reading-and-resources'>
               Further Reading and Resources
               <svg className={`w-6 h-6 transform transition-transform duration-300 ${isFurtherReadingVisible ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </p>
