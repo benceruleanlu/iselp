@@ -3,7 +3,7 @@ import stockImage from '../../public/stock8.jpg'
 
 const Page = () => {
   return (
-    <div className='flex flex-row justify-between w-10/12 mx-auto my-16'>
+    <div className='flex flex-row justify-between w-10/12 max-w-6xl mx-auto my-16'>
       <div>
         <p className='font-bold text-5xl text-slate-950 mb-4'>About</p>
         <p className='text-slate-500 text-lg mb-6'>Learn about the site.</p>
