@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const NavBar = () => {
   return (
-    <div className='flex flex-row justify-between min-w-screen py-4 border-b max-w-6xl mx-auto'>
+    <div className='flex flex-row justify-between min-w-screen p-4 xl:px-0 border-b max-w-6xl mx-auto'>
         <div className='flex flex-row items-center'>
           <Link href="/" className='text-3xl py-2 transition duration-300 ease-in-out transform hover:scale-105 hover:text-[#0066CC] font-semibold text-slate-950'>ISELP for Everyone</Link>
         </div>
