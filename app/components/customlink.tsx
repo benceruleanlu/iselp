@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
-const CustomLink = ({ href, className, children }) => {
-  const handleClick = (e) => {
+interface CustomLinkProps {
+  href: string;
+  className?: string;
+  children: ReactNode;
+}
+
+const CustomLink: React.FC<CustomLinkProps> = ({ href, className, children }) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const id = href.replace('#', '');
     const element = document.getElementById(id);
