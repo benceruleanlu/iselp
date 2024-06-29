@@ -3,29 +3,27 @@
 import Image from 'next/image';
 import searchIcon from '/public/searchIcon.png';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { useState } from 'react';
-
+import { useEffect } from 'react';
 const SearchBar = () => {
 
-    const router = useRouter();
-    const [searchQuery, updateSearchQuery] = useState();
-
-
-    const redirectToLandingPage = e => { // send people to the landing page
-        e.preventDefault();
-        router.push('/search-landing-page');
+    function evaluatePlaceholder() {
+        if (sessionStorage.getItem("currentQuery")) {
+            return sessionStorage.getItem("currentQuery");
+        }
+        else {
+            return "Search";
+        }
     }
 
     return (
     <div className = 'bg-slate-50 text-slate-700 rounded-xl p-4 min-w-[60vw] lg:min-w-[42vw]'>
-        <form className = "flex flex-row justify-between" onSubmit = {redirectToLandingPage}>
+        <form className = "flex flex-row justify-between" method = "get" action = "/search-landing-page">
             <input className = 'text-left focus:outline-none fill bg-slate-50 grow'
             type="text" 
-            onChange={(event) => updateSearchQuery(event.target.value)}
             id="searchBar" 
-            name ="searchBar" 
-            placeholder = "Search"/>
+            name ="q"
+            onChange={(event) => sessionStorage.setItem("currentQuery", event.target.value)}
+            placeholder = {evaluatePlaceholder()}/>
 
             <button type="submit">
             <Image 

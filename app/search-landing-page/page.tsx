@@ -2,25 +2,25 @@ import Image from 'next/image'
 import searchIcon from '/public/searchIcon.png'
 import Link from 'next/link';
 import SearchBar from '../components/searchbar';
+import SearchResults from '../components/searchresults';
 import Script from 'next/script'
+import {useEffect} from 'react'
+
 
 const Page = () => {
     return (
-            
-            <main>
-            <div className='bg-[#0066CC] text-slate-50 flex flex-row items-center px-[10vw] md:px-[18vw] text-center pt-[7vh] md:pt-[10vh] pb-[7vh] space-y-8 md:space-y-16'>
-                <div className = 'bg-slate-50 text-slate-700 rounded-xl p-4 min-w-[60vw] lg:min-w-[42vw]'>
-                    <script async data-cfasync="true" src="https://cse.google.com/cse.js?cx=413ead2ed4c43412b">
-                    </script>
-                    <div className="gcse-searchbox"></div>
-                </div>
+        <main>
+        <div className='bg-[#0066CC] text-slate-50 flex flex-col items-start px-[5vw] md:px-[2vw] text-left pt-[7vh] md:pt-[10vh] pb-[7vh] space-y-8 md:space-y-16'>
+            <p className='text-4xl md:text-5xl lg:text-7xl font-bold max-w-[90vw] md:max-w-[70vw]'>What would you like to learn today?</p>
+            <div className = 'bg-slate-50 text-slate-700 rounded-xl p-4 min-w-[60vw] lg:min-w-[42vw]'>
+                <SearchBar/>
             </div>
+        </div>
 
-            <div>
-            <div className="gcse-searchresults"></div>
-            </div>
-            </main>      
-    );
+        <SearchResults/>
+        
+        </main>      
+);
   }
-  
+
   export default Page;
