@@ -9,8 +9,8 @@ const Page = () => {
   const [isFurtherReadingVisible, setIsFurtherReadingVisible] = useState(false);
 
   return (
-    <div className='flex flex-row justify-between w-10/12 mx-auto my-16 max-w-6xl space-x-8'>
-      <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm'> {/* Ran out of zyn, can't make it maintainable :(( */}
+    <div className='flex flex-row w-10/12 mx-auto my-16 max-w-6xl lg:space-x-12'>
+      <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'> {/* Ran out of zyn, can't make it maintainable :(( */}
         <p className='font-semibold'>Contents</p>
         <hr className='!mb-4'/> {/* Killing myself */}
         <p className='font-semibold'>Summary and Highlights</p> {/* Killing myself */}
