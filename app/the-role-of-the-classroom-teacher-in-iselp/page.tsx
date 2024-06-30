@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 
 const Page = () => {
-
+  // I THINK WE ARE MISSING AN IMAGE ON THIS PAGE, PLEASE DOUBLE CHECK
   const [isInDepthVisible, setIsInDepthVisible] = useState(false);
   return (
     <>
@@ -22,7 +22,7 @@ const Page = () => {
             
             <p><CustomLink href="#in-depth" className='font-semibold'>In-Depth</CustomLink></p>
               <p><CustomLink href="#working-with-the-ISSP-teacher" className = 'ml-2'>Working with the ISSP teacher</CustomLink></p>
-              <p><CustomLink href="#assessment-considerations" className = 'ml-2'>Assessment considerations</CustomLink></p>
+              <p><CustomLink href="#assessment-considerations-1" className = 'ml-2'>Assessment considerations</CustomLink></p>
               <p className='!mb-4'><CustomLink href="#common-strategies-for-extensions-in-the-classroom" className = 'ml-2'>Common strategies for extensions in the classroom</CustomLink></p>
         </div>
 
@@ -48,13 +48,8 @@ const Page = () => {
             <p>Students engaged in ISELP need to take part in meaningful learning with the aim of working toward greater depth and breadth of concepts being taught during class time.</p>
             <p>Early in a given school year, it is advisable that the classroom teacher collaborate with the ISSP teacher to build a comprehensive student portrait, based on the input from the student, family/caregiver(s), and all educators, in order get a sense of what the student&rsquo;s strengths and preferences for extensions are to meet the accommodations set in their IEP.</p>
             <p>The chart below highlights the importance of the classroom teacher, ISSP teacher, family, and student relationship:</p>
-            <Image
-                src='/changesInTheProcessOfLearning.png'
-                width={800}
-                height={600}
-                alt='Characteristics of Gifted Learners'
-                className='rounded-lg py-6 max-h-[800px] max-w-[600px] mx-auto overflow-x-auto'
-            />
+            <p className='font-semibold text-xl lg:text-3xl'>IMAGE MISSING</p>
+
             <p className="font-semibold text-xl" id='assessment-considerations'>Assessment Considerations</p>
               <p>Students with a Gifted identification should be evaluated based on the Ontario Curriculum as with any student in their grade.  While Gifted students may be given opportunities to go beyond the course material and work on modified activities, <b><i>all assessments should be evaluated based on standard grade level curricular expectations</i></b>, as for all learners.</p>
             
@@ -81,9 +76,8 @@ const Page = () => {
                     <li><i>Discuss the possible opportunities for cross-curricular work with other teachers in the same term or school year.</i></li>
                   </ol>
                   <p>The chart below highlights the importance of the classroom teacher, ISSP teacher, family, and student relationship. For maximum success, each role has specific areas to contribute to the program development and implementation.</p>
-                  <p className='text-slate-500 lg:text-lg mb-6'>IMAGE MISSING</p>
-
-                <p className="font-semibold text-xl" id='assessment-considerations'>Assessment considerations</p>
+                  <p className='font-semibold text-xl lg:text-3xl'>IMAGE MISSING</p>
+                <p className="font-semibold text-xl" id='assessment-considerations-1'>Assessment considerations</p>
                   <p>Learners engaged in ISELP may show advanced mastery of subject material but may also not excel in the specific skills in each subject discipline, or may not exercise the necessary learning skills to ensure that they meet all grade-level curriculum expectations. Special Education identification is part of many intersecting identifications of our students. Students who are identified as Gifted can have deficiencies in other areas, such as social maturity, and other diagnosed learning disabilities.</p>
                   <p>Students with a Gifted identification should be evaluated based on the Ontario Curriculum as with any student in their grade.  While Gifted students may be given opportunities to go beyond the course material and work on modified activities,<b><i>all assessments should be evaluated based on standard grade level curricular expectations</i></b>, as for all learners.</p>
                   <p>Below are some common situations that arise when learners who are part of ISELP engage with evaluated tasks.</p>
