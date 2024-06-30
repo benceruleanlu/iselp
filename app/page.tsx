@@ -3,6 +3,7 @@ import Navbar from './components/navbar';
 import Image from 'next/image'
 import searchIcon from '/public/searchIcon.png'
 import Link from 'next/link';
+import SearchBar from './components/searchbar';
 
 export default function Home() {
   return (
