@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import CustomLink from '../components/customlink';
+import CustomLinkA from '../components/customlink-a';
 import NavBar from '../components/navbar-a';
 import { useState } from 'react';
 
@@ -16,22 +17,22 @@ const Page = () => {
         <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'> {/* Ran out of zyn, can't make it maintainable :(( */}
           <p className='font-bold text-lg'>Contents</p>
           <hr className='!mb-4'/> {/* Killing myself */}
-          <p><CustomLink href="#summary-and-highlights" className="font-semibold">Summary and Highlights</CustomLink></p>
-          <p><CustomLink href="#affective-qualities-of-gifted-learners-1" className='ml-2'>Affective qualities of Gifted learners</CustomLink></p>
-          <p className='!mb-4'><CustomLink href="#gifted-underachievement" className='ml-2'>Gifted underachievement</CustomLink></p>
-          <p onClick={() => setIsInDepthVisible(true)}><CustomLink href="#in-depth" className='font-semibold'>In-Depth</CustomLink></p>
-          <p onClick={() => setIsInDepthVisible(true)}><CustomLink href="#what-is-giftedness" className='ml-2'>What is Giftedness?</CustomLink></p>
-          <p onClick={() => setIsInDepthVisible(true)}><CustomLink href="#common-characteristics-of-gifted-learners" className='ml-2'>Common characteristics of Gifted learners</CustomLink></p>
-          <p onClick={() => setIsInDepthVisible(true)}><CustomLink href="#portraits-of-gifted-and-talented" className='ml-2'>Portraits of Gifted and talented</CustomLink></p>
-          <p onClick={() => setIsInDepthVisible(true)}><CustomLink href="#misconceptions-about-giftedness" className='ml-2'>Misconceptions about Giftedness</CustomLink></p>
-          <p onClick={() => setIsInDepthVisible(true)} className='!mb-4'><CustomLink href="#affective-qualities-of-gifted-learners-2" className='ml-2'>Affective qualities of Gifted learners</CustomLink></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#further-reading-and-resources" className='font-semibold'>Further Reading and Resources</CustomLink></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#resources" className='ml-2'>Resources</CustomLink></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#videos" className='ml-2'>Videos</CustomLink></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#websites" className='ml-2'>Websites</CustomLink></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#articles" className='ml-2'>Articles</CustomLink></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#more-on-anxiety-as-it-pertains-to-gifted-students" className='ml-2'>More on anxiety as it pertains to Gifted students</CustomLink></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#footnotes" className='ml-2'>Footnotes</CustomLink></p>
+          <p><CustomLinkA href="#summary-and-highlights" className="font-semibold">Summary and Highlights</CustomLinkA></p>
+          <p><CustomLinkA href="#affective-qualities-of-gifted-learners-1" className='ml-2'>Affective qualities of Gifted learners</CustomLinkA></p>
+          <p className='!mb-4'><CustomLinkA href="#gifted-underachievement" className='ml-2'>Gifted underachievement</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#in-depth" className='font-semibold'>In-Depth</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#what-is-giftedness" className='ml-2'>What is Giftedness?</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#common-characteristics-of-gifted-learners" className='ml-2'>Common characteristics of Gifted learners</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#portraits-of-gifted-and-talented" className='ml-2'>Portraits of Gifted and talented</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#misconceptions-about-giftedness" className='ml-2'>Misconceptions about Giftedness</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)} className='!mb-4'><CustomLinkA href="#affective-qualities-of-gifted-learners-2" className='ml-2'>Affective qualities of Gifted learners</CustomLinkA></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#further-reading-and-resources" className='font-semibold'>Further Reading and Resources</CustomLinkA></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#resources" className='ml-2'>Resources</CustomLinkA></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#videos" className='ml-2'>Videos</CustomLinkA></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#websites" className='ml-2'>Websites</CustomLinkA></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#articles" className='ml-2'>Articles</CustomLinkA></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#more-on-anxiety-as-it-pertains-to-gifted-students" className='ml-2'>More on anxiety as it pertains to Gifted students</CustomLinkA></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#footnotes" className='ml-2'>Footnotes</CustomLinkA></p>
         </div>
         <div className='flex flex-col mx-auto max-w-[92vw]'>
           <p className='font-bold text-3xl lg:text5xl text-slate-950 mb-4'>Portrait of a Learner Engaged in ISELP</p>
