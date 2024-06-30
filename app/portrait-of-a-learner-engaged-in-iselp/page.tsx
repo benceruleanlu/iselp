@@ -19,19 +19,19 @@ const Page = () => {
           <p><CustomLink href="#summary-and-highlights" className="font-semibold">Summary and Highlights</CustomLink></p>
           <p><CustomLink href="#affective-qualities-of-gifted-learners-1" className='ml-2'>Affective qualities of Gifted learners</CustomLink></p>
           <p className='!mb-4'><CustomLink href="#gifted-underachievement" className='ml-2'>Gifted underachievement</CustomLink></p>
-          <p><CustomLink href="#in-depth" className='font-semibold'>In-Depth</CustomLink></p>
-          <p><CustomLink href="#what-is-giftedness" className='ml-2'>What is Giftedness?</CustomLink></p>
-          <p><CustomLink href="#common-characteristics-of-gifted-learners" className='ml-2'>Common characteristics of Gifted learners</CustomLink></p>
-          <p><CustomLink href="#portraits-of-gifted-and-talented" className='ml-2'>Portraits of Gifted and talented</CustomLink></p>
-          <p><CustomLink href="#misconceptions-about-giftedness" className='ml-2'>Misconceptions about Giftedness</CustomLink></p>
-          <p className='!mb-4'><CustomLink href="#affective-qualities-of-gifted-learners-2" className='ml-2'>Affective qualities of Gifted learners</CustomLink></p>
-          <p><CustomLink href="#further-reading-and-resources" className='font-semibold'>Further Reading and Resources</CustomLink></p>
-          <p><CustomLink href="#resources" className='ml-2'>Resources</CustomLink></p>
-          <p><CustomLink href="#videos" className='ml-2'>Videos</CustomLink></p>
-          <p><CustomLink href="#websites" className='ml-2'>Websites</CustomLink></p>
-          <p><CustomLink href="#articles" className='ml-2'>Articles</CustomLink></p>
-          <p><CustomLink href="#more-on-anxiety-as-it-pertains-to-gifted-students" className='ml-2'>More on anxiety as it pertains to Gifted students</CustomLink></p>
-          <p><CustomLink href="#footnotes" className='ml-2'>Footnotes</CustomLink></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLink href="#in-depth" className='font-semibold'>In-Depth</CustomLink></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLink href="#what-is-giftedness" className='ml-2'>What is Giftedness?</CustomLink></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLink href="#common-characteristics-of-gifted-learners" className='ml-2'>Common characteristics of Gifted learners</CustomLink></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLink href="#portraits-of-gifted-and-talented" className='ml-2'>Portraits of Gifted and talented</CustomLink></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLink href="#misconceptions-about-giftedness" className='ml-2'>Misconceptions about Giftedness</CustomLink></p>
+          <p onClick={() => setIsInDepthVisible(true)} className='!mb-4'><CustomLink href="#affective-qualities-of-gifted-learners-2" className='ml-2'>Affective qualities of Gifted learners</CustomLink></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#further-reading-and-resources" className='font-semibold'>Further Reading and Resources</CustomLink></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#resources" className='ml-2'>Resources</CustomLink></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#videos" className='ml-2'>Videos</CustomLink></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#websites" className='ml-2'>Websites</CustomLink></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#articles" className='ml-2'>Articles</CustomLink></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#more-on-anxiety-as-it-pertains-to-gifted-students" className='ml-2'>More on anxiety as it pertains to Gifted students</CustomLink></p>
+          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLink href="#footnotes" className='ml-2'>Footnotes</CustomLink></p>
         </div>
         <div className='flex flex-col mx-auto max-w-[92vw]'>
           <p className='font-bold text-3xl lg:text5xl text-slate-950 mb-4'>Portrait of a Learner Engaged in ISELP</p>

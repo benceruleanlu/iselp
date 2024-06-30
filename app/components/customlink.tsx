@@ -7,8 +7,9 @@ interface CustomLinkProps {
 }
 
 const CustomLink: React.FC<CustomLinkProps> = ({ href, className, children }) => {
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  const handleClick = async (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
+    await new Promise(resolve => setTimeout(resolve, 1));
     const id = href.replace('#', '');
     const element = document.getElementById(id);
     if (element) {
