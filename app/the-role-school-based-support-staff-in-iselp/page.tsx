@@ -18,9 +18,6 @@ const Page = () => {
             <hr className='!mb-4'/> {/* Killing myself */}
             <p><CustomLink href="#introduction" className="font-semibold">Introduction</CustomLink></p>
             <p><CustomLink href="#summary-and-highlights" className="font-semibold">Summary and Highlights</CustomLink></p>
-              <p><CustomLink href="#supporting-program-extensions-and-differentiation" className = 'ml-2'>Supporting program extensions and differentiation</CustomLink></p>
-              <p><CustomLink href="#mental-health-and-well-being" className = 'ml-2'>Mental health and well-being</CustomLink></p>
-              <p className = '!mb-4'><CustomLink href="#goal-setting-and-transitions" className = 'ml-2'>Goal setting and transitions</CustomLink></p>
             
             <p><CustomLink href="#in-depth" className='font-semibold'>In-Depth</CustomLink></p>
               <p><CustomLink href="#supporting-program extensions-and-differentiation-1" className = 'ml-2'>Supporting program extensions and differentiation</CustomLink></p>
