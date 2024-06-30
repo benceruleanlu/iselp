@@ -1,4 +1,5 @@
 import Card from './components/card';
+import Navbar from './components/navbar';
 import Image from 'next/image'
 import searchIcon from '/public/searchIcon.png'
 import Link from 'next/link';
@@ -6,17 +7,24 @@ import SearchBar from './components/searchbar';
 
 export default function Home() {
   return (
+    <>
+      <Navbar />
       <main className='flex flex-col'>
-        <div className='bg-[#0066CC] text-slate-50 flex flex-col items-center px-[10vw] md:px-[18vw] text-center pt-[7vh] md:pt-[10vh] pb-[7vh] space-y-8 md:space-y-16'>
-          <p className='text-4xl md:text-5xl lg:text-7xl font-bold max-w-[90vw] md:max-w-[70vw]'>What would you like to learn today?</p>
-          <div>
-            <SearchBar/>
+        <div className='bg-[#0066CC] text-slate-50 flex flex-col items-center px-8 lg:px-[18vw] text-center lg:pt-[10vh] py-10 space-y-8 lg:space-y-16'>
+          <p className='text-4xl md:text-5xl lg:text-7xl font-bold max-w-[90vw] md:max-w-[70vw] tracking-tight'>What would you like to learn today?</p>
+          <div className='bg-slate-50 text-slate-700 rounded-xl p-4 w-full lg:min-w-[42vw] flex flex-row justify-between'>
+            <p className='text-left'>Search</p>
+            <Image 
+              src={searchIcon}
+              alt='Icon of a magnifying glass'
+              width={24}
+            />
           </div>
-          <Link href="/help" className='underline'>How to use this resource --&gt;</Link>
+          <Link href="/help" className='underline hidden lg:block'>How to use this resource --&gt;</Link>
         </div>
 
-        <div className='text-center mt-16 mb-10 max-w-[90vw] md:max-w-[40vw] mx-auto -mb'>
-          <p className='font-bold text-5xl text-slate-950 mb-4'>ISELP Articles</p>
+        <div className='text-center mt-8 lg:mt-16 mb-4 lg:mb-10 max-w-[90vw] md:max-w-[40vw] mx-auto -mb'>
+          <p className='font-bold text-3xl lg:text-5xl text-slate-950 mb-2 lg:mb-4'>ISELP Articles</p>
           <p className='text-slate-500 text-lg'>Search and browse at your leisure.</p>
         </div>
 
@@ -59,5 +67,6 @@ export default function Home() {
           />
         </div>
       </main>
+    </>
   );
 }
