@@ -2,15 +2,16 @@
 
 import Image from 'next/image';
 import searchIcon from '/public/searchIcon.png';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
 const SearchBar = () => {
 
     useEffect(() => {
         const inputField = document.getElementById("searchBarText") as HTMLInputElement;
         console.error(sessionStorage.getItem("currentQuery"));
-        if (typeof sessionStorage.getItem("currentQuery") !== 'undefined') { // build in asynchronous element, html seems to loads before the update
-            inputField.placeholder = sessionStorage.getItem("currentQuery")!;
+        const currentQuery = sessionStorage.getItem("currentQuery");
+        if (currentQuery && currentQuery !== 'undefined') {
+            inputField.placeholder = currentQuery;
         }
         else {
             inputField.placeholder = "Search";
