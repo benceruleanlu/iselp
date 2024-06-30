@@ -1,7 +1,5 @@
 import Card from './components/card';
 import Navbar from './components/navbar';
-import Image from 'next/image'
-import searchIcon from '/public/searchIcon.png'
 import Link from 'next/link';
 import SearchBar from './components/searchbar';
 
@@ -12,14 +10,7 @@ export default function Home() {
       <main className='flex flex-col'>
         <div className='bg-[#0066CC] text-slate-50 flex flex-col items-center px-8 lg:px-[18vw] text-center lg:pt-[10vh] py-10 space-y-8 lg:space-y-16'>
           <p className='text-4xl md:text-5xl lg:text-7xl font-bold max-w-[90vw] md:max-w-[70vw] tracking-tight'>What would you like to learn today?</p>
-          <div className='bg-slate-50 text-slate-700 rounded-xl p-4 w-full lg:min-w-[42vw] flex flex-row justify-between'>
-            <p className='text-left'>Search</p>
-            <Image 
-              src={searchIcon}
-              alt='Icon of a magnifying glass'
-              width={24}
-            />
-          </div>
+          <SearchBar />
           <Link href="/help" className='underline hidden lg:block'>How to use this resource --&gt;</Link>
         </div>
 
