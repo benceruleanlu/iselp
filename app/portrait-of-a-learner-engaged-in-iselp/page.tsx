@@ -35,7 +35,7 @@ const Page = () => {
           <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#footnotes" className='ml-2'>Footnotes</CustomLinkA></p>
         </div>
         <div className='flex flex-col mx-auto max-w-[92vw]'>
-          <p className='font-bold text-3xl lg:text5xl text-slate-950 mb-4'>Portrait of a Learner Engaged in ISELP</p>
+          <p className='font-bold text-3xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>Portrait of a Learner Engaged in ISELP</p>
           <p className='text-slate-500 lg:text-lg mb-6'>Learn how to understand and support gifted learners, including their characteristics and potential challenges.</p>
 
           <div className='space-y-4'>
