@@ -19,6 +19,7 @@ const Page = () => {
             
             <p><CustomLink href="#introduction" className="font-semibold">Introduction</CustomLink></p>
             <p><CustomLink href="#summary-and-highlights" className="font-semibold">Summary and Highlights</CustomLink></p>
+            
             <p><CustomLink href="#in-depth" className='font-semibold'>In-Depth</CustomLink></p>
               <p><CustomLink href="#working-with-the-ISSP-teacher" className = 'ml-2'>Working with the ISSP teacher</CustomLink></p>
               <p><CustomLink href="#assessment-considerations" className = 'ml-2'>Assessment considerations</CustomLink></p>
@@ -45,10 +46,15 @@ const Page = () => {
             <p className='font-semibold text-xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
             <hr />
             <p>Students engaged in ISELP need to take part in meaningful learning with the aim of working toward greater depth and breadth of concepts being taught during class time.</p>
-            <p>Early in a given school year, it is advisable that the classroom teacher collaborate with the ISSP teacher to build a comprehensive student portrait, based on the input from the student, family/caregiver(s), and all educators, in order get a sense of what the student’s strengths and preferences for extensions are to meet the accommodations set in their IEP.</p>
+            <p>Early in a given school year, it is advisable that the classroom teacher collaborate with the ISSP teacher to build a comprehensive student portrait, based on the input from the student, family/caregiver(s), and all educators, in order get a sense of what the student&rsquo;s strengths and preferences for extensions are to meet the accommodations set in their IEP.</p>
             <p>The chart below highlights the importance of the classroom teacher, ISSP teacher, family, and student relationship:</p>
-            <p className='text-slate-500 lg:text-lg mb-6'>IMAGE MISSING</p>
-
+            <Image
+                src='/changesInTheProcessOfLearning.png'
+                width={800}
+                height={600}
+                alt='Characteristics of Gifted Learners'
+                className='rounded-lg py-6 max-h-[800px] max-w-[600px] mx-auto overflow-x-auto'
+            />
             <p className="font-semibold text-xl" id='assessment-considerations'>Assessment Considerations</p>
               <p>Students with a Gifted identification should be evaluated based on the Ontario Curriculum as with any student in their grade.  While Gifted students may be given opportunities to go beyond the course material and work on modified activities, <b><i>all assessments should be evaluated based on standard grade level curricular expectations</i></b>, as for all learners.</p>
             
@@ -65,12 +71,12 @@ const Page = () => {
               {isInDepthVisible && (
               <>
                 <p className="font-semibold text-xl" id='working-with-the-ISSP-teacher'>Working with the ISSP teacher</p>
-                  <p>As with any identified student with an exceptionality, learners engaged in ISELP should be afforded support through your school’s Special Education department.  Their contact may be with an ISSP teacher, Guidance teacher, or other similar types of roles based on the way your school’s support team is structured.</p>
-                  <p>Early in a given school year, it is advisable that the classroom teacher collaborate with the ISSP teacher to build a comprehensive student portrait, based on the input from the student, family/caregiver(s), and all educators, in order get a sense of what the student’s strengths and preferences for extensions are to meet the accommodations set in their IEP.</p>
+                  <p>As with any identified student with an exceptionality, learners engaged in ISELP should be afforded support through your school&rsquo;s Special Education department.  Their contact may be with an ISSP teacher, Guidance teacher, or other similar types of roles based on the way your school&rsquo;s support team is structured.</p>
+                  <p>Early in a given school year, it is advisable that the classroom teacher collaborate with the ISSP teacher to build a comprehensive student portrait, based on the input from the student, family/caregiver(s), and all educators, in order get a sense of what the student&rsquo;s strengths and preferences for extensions are to meet the accommodations set in their IEP.</p>
                   <p>Below are some guiding topics that can build effective planning for students engaged in ISELP who are part of your classroom:</p>
                   <ol className ='list-decimal pl-12'>
                     <li><i>Discuss what are the given strengths and needs for each student. What are some interests that the student may focus on (ex: Social - leadership opportunities; Cognitive - Engaging with a passion project which satisfies the curricular expectations) that you may be able to support.</i></li>
-                    <li><i>Ensure that any other exceptionalities (e.g., learning disabilities), diagnoses (e.g., ADHD, anxiety), and other areas that need to be supported (e.g., ELL) are discussed and how they impact the learner portrait, ensuring there is a comprehensive understanding of the student’s complete portrait as a learner.</i></li>
+                    <li><i>Ensure that any other exceptionalities (e.g., learning disabilities), diagnoses (e.g., ADHD, anxiety), and other areas that need to be supported (e.g., ELL) are discussed and how they impact the learner portrait, ensuring there is a comprehensive understanding of the student&rsquo;s complete portrait as a learner.</i></li>
                     <li><i>Discuss what particular strategies work best with each student and what potential needs might students have in interacting with the class and teacher.</i></li>
                     <li><i>Discuss the possible opportunities for cross-curricular work with other teachers in the same term or school year.</i></li>
                   </ol>
@@ -81,7 +87,7 @@ const Page = () => {
                   <p>Learners engaged in ISELP may show advanced mastery of subject material but may also not excel in the specific skills in each subject discipline, or may not exercise the necessary learning skills to ensure that they meet all grade-level curriculum expectations. Special Education identification is part of many intersecting identifications of our students. Students who are identified as Gifted can have deficiencies in other areas, such as social maturity, and other diagnosed learning disabilities.</p>
                   <p>Students with a Gifted identification should be evaluated based on the Ontario Curriculum as with any student in their grade.  While Gifted students may be given opportunities to go beyond the course material and work on modified activities,<b><i>all assessments should be evaluated based on standard grade level curricular expectations</i></b>, as for all learners.</p>
                   <p>Below are some common situations that arise when learners who are part of ISELP engage with evaluated tasks.</p>
-                  <p>Please refer to the <a href="https://pdsb1.sharepoint.com/sites/Innovation/SitePages/EML-2021-and-the-Innovative-Elements-Knowing-and-Doing-Guides.aspx" target='_blank' className='text-[#0066CC] underline'>Empowering Modern Learners ‘Knowing and Doing Guides’</a> and the <a href="https://pdsb1.sharepoint.com/sites/AssessPeel" target='_blank' className='text-[#0066CC] underline'>Assess Peel SharePoint site</a> for a foundational understanding of assessment for students engaged with ISELP.</p>
+                  <p>Please refer to the <a href="https://pdsb1.sharepoint.com/sites/Innovation/SitePages/EML-2021-and-the-Innovative-Elements-Knowing-and-Doing-Guides.aspx" target='_blank' className='text-[#0066CC] underline'>Empowering Modern Learners &lsquo;Knowing and Doing Guides&rsquo;</a> and the <a href="https://pdsb1.sharepoint.com/sites/AssessPeel" target='_blank' className='text-[#0066CC] underline'>Assess Peel SharePoint site</a> for a foundational understanding of assessment for students engaged with ISELP.</p>
 
                   <table className="w-full text-sm text-left text-gray-700 min-w-[800px]">
                     <thead className="text-xs text-gray-700 uppercase bg-gray-100">
@@ -104,14 +110,14 @@ const Page = () => {
                       <tr className="bg-gray-50 border-b border-gray-200">
                         <td className="py-4 px-6"><span className='font-bold italic'>Changed/Adapted Task</span></td>  
                         <td className="py-4 px-6">
-                          <p>Students determine the way they wish to meet the learning goals and complete work with a choice of product or topic. While the topic or product reflects the student’s learning priorities, the student may or may not meet the expectations of the learning goal.</p>
+                          <p>Students determine the way they wish to meet the learning goals and complete work with a choice of product or topic. While the topic or product reflects the student&rsquo;s learning priorities, the student may or may not meet the expectations of the learning goal.</p>
                           <p>See the <a href="https://drive.google.com/file/d/1BMVUzoRx7SeQGqZ2kx3xxUQ-iDVm77NH/view" target='_blank' className='text-[#0066CC] underline'>EML Learning Environments Knowing and Doing Guide</a> for more information.</p>
                         </td>
                         <td className="py-4 px-6">
                           <ol className = "list-disc pl-12">
                             <li>Evaluate entirely based on decided criteria for the class.</li>
                             <li>Treat such cases as if a standard student were opting for a different product type.</li>
-                            <li>It’s advisable to conference with the student to clarify how they can meet the expectations of the task while adopting their chosen modification.</li>
+                            <li>It&rsquo;s advisable to conference with the student to clarify how they can meet the expectations of the task while adopting their chosen modification.</li>
                           </ol>
                         </td>
                       </tr>
@@ -124,9 +130,9 @@ const Page = () => {
                         </td>
                         <td className="py-4 px-6">
                           <ol className = "list-disc pl-12">
-                            <li>It’s OK for a student to receive a high mark!  Remember to stay within the expectations of the grade level.</li>
+                            <li>It&rsquo;s OK for a student to receive a high mark!  Remember to stay within the expectations of the grade level.</li>
                             <li>Take the time to comment on how they may further improve on more advanced reasoning to help foster development.</li>
-                            <li>Use phrases such as, “at this level you’ve met all expectations of the assignment, and here are some ways to improve.”</li>
+                            <li>Use phrases such as, &ldquo;at this level you&rsquo;ve met all expectations of the assignment, and here are some ways to improve.&rdquo;</li>
                           </ol>
                         </td>
                       </tr>
@@ -140,7 +146,7 @@ const Page = () => {
                         <td className="py-4 px-6">
                           <ol className = "list-disc pl-12">
                             <li>Pre-empt this problem by conferencing with the student at the early stages of the task; ensure you specifically clarify how they can meet the expectations of the course/assignment.</li>
-                            <li>Avoid over-evaluation based on effort.  Again, we must ensure that we’re evaluating against the expectations of the curriculum.</li>
+                            <li>Avoid over-evaluation based on effort.  Again, we must ensure that we&rsquo;re evaluating against the expectations of the curriculum.</li>
                             <li>As with any student, try to remain sensitive toward their passion.  Provide feedback as to where matters could be improved upon, and if suitable, allow the student to perhaps adjust their product to improve their standing.</li>
                           </ol>
                         </td>
@@ -149,7 +155,7 @@ const Page = () => {
                   </table>
 
                 <p className="font-semibold text-xl" id='common-strategies-for-extensions-in-the-classroom'>Common strategies for extensions in the classroom</p>
-                  <p>There are a variety of strategies and ongoing practices that help encourage learning for the Gifted student.  Fullan (2014, p3) provides a very clear description of new pedagogies as &lsquo;the foundation of teacher quality is a teacher’s pedagogical capacity - their repertoire of teaching strategies and their ability to form partnerships with students in mastering the process of learning. Technology in the new model is pervasive and it is used to discover and master content knowledge and to enable the deep learning goals of creating and using new knowledge in the world.&rsquo;</p>
+                  <p>There are a variety of strategies and ongoing practices that help encourage learning for the Gifted student.  Fullan (2014, p3) provides a very clear description of new pedagogies as &ldquo;the foundation of teacher quality is a teacher&rsquo;s pedagogical capacity - their repertoire of teaching strategies and their ability to form partnerships with students in mastering the process of learning. Technology in the new model is pervasive and it is used to discover and master content knowledge and to enable the deep learning goals of creating and using new knowledge in the world.&rdquo;</p>
                   <p>Many strategies may work differently within different disciplines and may depend on the teacher and the student. The following chart highlights strategies and practices that focus on the idea of developing various skills with students engaged in ISELP. Many of the practices focus on building critical thinking and analytical skills while helping students self-advocate and work towards collective and self-directed learning. Additionally, these strategies should work to foster the opportunity to explore subject expectations in greater depth and breadth.</p>
 
                   <table className="w-full text-sm text-left text-gray-700 min-w-[800px]">
@@ -163,7 +169,7 @@ const Page = () => {
                       <tr className="bg-white border-b border-gray-200">
                         <td className="py-4 px-6"><span className='font-bold italic'>Developing Inquiry/Questioning Processes</span></td>
                           <td className="py-4 px-6">
-                            <p>While working to develop a concept with your class, a Gifted learner may understand the concept at a pace much quicker than the standard pacing requires.  For example, a question posed in class which usually fosters a whole period of discussion and exploration, may have already been encountered by the student from previous experience or just seem “intuitive” to a Gifted learner.  This, at times, creates the circumstance where the Gifted learner will not have the opportunity to examine the concept deeply with their peers.</p>
+                            <p>While working to develop a concept with your class, a Gifted learner may understand the concept at a pace much quicker than the standard pacing requires.  For example, a question posed in class which usually fosters a whole period of discussion and exploration, may have already been encountered by the student from previous experience or just seem &ldquo;intuitive&rdquo; to a Gifted learner.  This, at times, creates the circumstance where the Gifted learner will not have the opportunity to examine the concept deeply with their peers.</p>
                             <p>More information can be found in the <a href="https://drive.google.com/file/d/1IVnb3REh-0YtVpCIV614YeQSVEBFCW7c/view" target='_blank' className='text-[#0066CC] underline'>EML Learning Environment Knowing and Doing Guide</a>.</p>
                           </td>
                           <td className="py-4 px-6">
@@ -204,7 +210,7 @@ const Page = () => {
                         <td className="py-4 px-6"><span className='font-bold italic'>Compacting</span></td>
                         <td>
                           <p>Gifted learners will often become proficient at a given technique or comprehend explicitly presented information at a far quicker pace than their peers.  As such, this provides a great opportunity to provide alternative tasks for the gifted learner to work in an asynchronous manner while the remainder of the class works to master concepts such as these.</p>
-                          <p>Ensure to be cautious when taking this approach by requiring the student to properly demonstrate that the concepts have developed at a proficient enough level (i.e. doesn’t have to be perfect, but good enough to practice further with a more challenging alternative).</p>
+                          <p>Ensure to be cautious when taking this approach by requiring the student to properly demonstrate that the concepts have developed at a proficient enough level (i.e. doesn&rsquo;t have to be perfect, but good enough to practice further with a more challenging alternative).</p>
                         </td>
                         <td>
                           <ol className = "list-disc pl-12">
@@ -280,14 +286,14 @@ const Page = () => {
                       <tr>
                         <td className="py-4 px-6"><span className='font-bold italic'>Dealing with Questions that Challenge Authority</span></td>
                         <td>
-                          <p>Gifted learners tend to openly question the purpose of a given lesson/task/assignment.  This can often be interpreted as a challenge to the teacher’s authority; however, in many circumstances, they simply are examining their learning and the education system as a whole.</p>
+                          <p>Gifted learners tend to openly question the purpose of a given lesson/task/assignment.  This can often be interpreted as a challenge to the teacher&rsquo;s authority; however, in many circumstances, they simply are examining their learning and the education system as a whole.</p>
                           <p>It is instructive to engage in a dialogue with them in an authentic manner. The Gifted student can likely engage in higher level thinking and dialogue.</p>
                           <p>More information can be found in the <a href="https://drive.google.com/file/d/1giR9uRE29r-W59AObxLa6vQE8XHJlUOq/view" target='_blank' className='text-[#0066CC] underline'>EML Models of Learning Knowing and Doing Guide</a>.</p>
                         </td>
                         <td>
                           <ol className = "list-disc pl-12">
                             <li>Openly discuss how the task will benefit their development, ensuring to be thorough if questioned further.</li>
-                            <li>Be open to modifying the task by asking them how they would be better engaged. You can use the above strategies as suggestions if the student isn’t able to articulate what they would prefer.</li>
+                            <li>Be open to modifying the task by asking them how they would be better engaged. You can use the above strategies as suggestions if the student isn&rsquo;t able to articulate what they would prefer.</li>
                           </ol>
                         </td>
                       </tr>
