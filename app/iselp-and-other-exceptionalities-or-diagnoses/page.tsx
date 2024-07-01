@@ -28,7 +28,7 @@ const Page = () => {
           <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#further-reading-and-resources" className='font-semibold'>Further Reading and Resources</CustomLinkA></p>
         </div>
         <div className='flex flex-col mx-auto max-w-[92vw]'>
-          <p className='font-bold text-3xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>ISELP and Other Exceptionalities/Diagnoses</p>
+          <p className='font-bold text-3xl lg:text-4xl text-slate-950 mb-4 tracking-tight'>ISELP and Other Exceptionalities/Diagnoses</p>
           <p className='text-slate-500 lg:text-lg mb-6'>Learn how to support Dual Exceptional students with additional diagnoses or exceptionalities.</p>
 
           <div className='space-y-4'>

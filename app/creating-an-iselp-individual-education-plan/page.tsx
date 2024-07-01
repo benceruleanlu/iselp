@@ -30,11 +30,10 @@ const Page = () => {
         </div>
         
         <div className='flex flex-col mx-auto max-w-[92vw]'>
-          <p className='font-bold text-3xl lg:text5xl text-slate-950 mb-4'>Creating an ISELP Individual Education Plan</p>
+          <p className='font-bold text-3xl lg:text-4xl text-slate-950 mb-4 tracking-tight'>Creating an ISELP Individual Education Plan</p>
           <p className='text-slate-500 lg:text-lg mb-6'>Learn how to tailor an Individualized Education lan (IEP) to meet the unique needs of gifted students.</p>
 
-          <p className='text-gray-600	text-sm italic'>An alternative page (page 4) for students who are identified as Exceptional Intellectual - Gifted is to be a &lsquo;Gifted Plan&rsquo; page.</p>
-          <p className='text-gray-600	text-sm italic mb-4'>An alternative page (page 4) for students who are receiving non-identified Special Education supports is to be an &lsquo;Enhanced Learning Plan&rsquo; page.</p>
+          <p className='text-gray-600	text-sm italic mb-4'>An alternative page (page 4) for students who are identified as Exceptional Intellectual - Gifted is to be a &lsquo;Gifted Plan&rsquo; page. An alternative page (page 4) for students who are receiving non-identified Special Education supports is to be an &lsquo;Enhanced Learning Plan&rsquo; page.</p>
 
           <div className='space-y-4'>
           
