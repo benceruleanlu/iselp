@@ -136,7 +136,7 @@ const Page = () => {
 
                 <p>Researchers acknowledge a number of misconceptions about Gifted students that are identified in the chart below, along with considerations for teaching practice.</p>
 
-                <div className="overflow-x-auto shadow-md sm:rounded-lg bg-white]">
+                <div className="overflow-x-auto shadow-md sm:rounded-lg bg-white">
                   <table className="w-full text-sm text-left text-gray-700 min-w-[800px]">
                     <thead className="text-xs text-gray-700 uppercase bg-gray-100">
                       <tr>

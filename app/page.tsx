@@ -28,7 +28,7 @@ export default function Home() {
           />
           <Card
             title='ISELP and Other Exceptionalities/Diagnoses'
-            subtitle='Learn how to support "Dual Exceptional" students with additional diagnoses or exceptionalities.'
+            subtitle='Learn how to support Dual Exceptional students with additional diagnoses or exceptionalities.'
             imageSrc='/stock2.jpg'
             linkUrl='/iselp-and-other-exceptionalities-or-diagnoses'
           />
@@ -45,7 +45,7 @@ export default function Home() {
             linkUrl='/the-role-of-the-classroom-teacher-in-iselp'
           />
           <Card
-            title='The Role School-Based Support Staff in ISELP'
+            title='The Role of School-Based Support Staff in ISELP'
             subtitle='Learn how to effectively implement and support the ISELP program in a regular classroom setting.'
             imageSrc='/stock5.jpg'
             linkUrl='/the-role-school-based-support-staff-in-iselp'
