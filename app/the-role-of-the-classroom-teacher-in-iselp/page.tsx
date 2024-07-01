@@ -26,7 +26,8 @@ const Page = () => {
         </div>
 
         <div className='flex flex-col mx-auto max-w-[92vw]'>
-          <p className='font-bold text-3xl lg:text5xl text-slate-950 mb-4'>The Role Of The Classroom Teacher In ISELP</p>
+          {/* <p className='font-bold text-3xl lg:text5xl text-slate-950 mb-4'>The Role Of The Classroom Teacher In ISELP</p> */}
+          <p className='font-bold text-3xl lg:text5xl text-red-600 mb-4'>PAGE NOT FINISHED</p>
           <p className='text-slate-500 lg:text-lg mb-6'>Learn how to effectively engage and challenge learners in ISELP with specific classroom strategies.</p>
           
           <div className='space-y-4'>
