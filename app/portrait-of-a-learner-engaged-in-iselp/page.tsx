@@ -213,7 +213,7 @@ const Page = () => {
 
                 <p className='font-semibold text-xl' id='affective-qualities-of-gifted-learners-2'>Affective qualities of Gifted learners</p>
 
-                <p>Gifted learners often perceive and engage with the world differently than their non-Gifted peers. While many of their &lsquo;gifts&rsquo; present a multitude of opportunities, it is important to note that in some cases these &lsquo;gifts&rsquo; might make students more vulnerable to academic anxiety, social-emotional problems, and Gifted underachievement (Stornelli, Flett, & Hewitt, 2009; Christopher & Shewmaker, 2010;. Gaesser, 2018).  However, with informed adults who understand their unique needs, Gifted students can flourish.</p>
+                <p>Gifted learners often perceive and engage with the world differently than their non-Gifted peers. While many of their &lsquo;gifts&rsquo; present a multitude of opportunities, it is important to note that in some cases these &lsquo;gifts&rsquo; might make students more vulnerable to academic anxiety, social-emotional problems, and Gifted underachievement (Stornelli, Flett, & Hewitt, 2009; Christopher & Shewmaker, 2010;. Gaesser, 2018). However, with informed adults who understand their unique needs, Gifted students can flourish.</p>
 
                 <p>Researchers have investigated anxiety as it specifically pertains to Gifted learners and identified five ways it can be exhibited by some Gifted learners:</p>
 
@@ -246,9 +246,9 @@ const Page = () => {
 
                 <p className='font-semibold text-xl' id='videos'>Videos</p>
 
-                <p><a href="https://www.youtube.com/watch?v=ctYVIYggRfg" target='_blank' className='text-[#0066CC] underline'>Linda Silverman:  The unique inner lives of gifted children</a></p>
+                <p><a href="https://www.youtube.com/watch?v=ctYVIYggRfg" target='_blank' className='text-[#0066CC] underline'>Linda Silverman: The unique inner lives of gifted children</a></p>
 
-                <p><a href="https://www.youtube.com/watch?v=jLwPwH1FmXM" target='_blank' className='text-[#0066CC] underline'>Linda Silverman:  Overexcitabilities windows into the innerworld of the gifted</a></p>
+                <p><a href="https://www.youtube.com/watch?v=jLwPwH1FmXM" target='_blank' className='text-[#0066CC] underline'>Linda Silverman: Overexcitabilities windows into the innerworld of the gifted</a></p>
 
                 <p className='font-semibold text-xl' id='websites'>Websites</p>
 
@@ -256,7 +256,7 @@ const Page = () => {
 
                 <p><a href="https://nagc.org/" target='_blank' className='text-[#0066CC] underline'>National Association for Gifted Children</a></p>
 
-                <p className='font-semibold text-xl'  id='articles'>Articles</p>
+                <p className='font-semibold text-xl' id='articles'>Articles</p>
 
                 <p><a href="https://www.verywellfamily.com/dabrowskis-overexcitabilities-in-gifted-children-1449118" target='_blank' className='text-[#0066CC] underline'>Dabrowski&&apos;s Overexcitabilities in Gifted Children</a></p>
 
@@ -264,7 +264,7 @@ const Page = () => {
 
                 <p className='font-semibold text-xl' id='more-on-anxiety-as-it-pertains-to-gifted-students'>More on anxiety as it pertains to Gifted students</p>
 
-                <p><a href="https://files.eric.ed.gov/fulltext/EJ1172288.pdf" target='_blank' className='text-[#0066CC] underline'>Counselling gifted students:  school-based considerations and strategies</a></p>
+                <p><a href="https://files.eric.ed.gov/fulltext/EJ1172288.pdf" target='_blank' className='text-[#0066CC] underline'>Counselling gifted students: school-based considerations and strategies</a></p>
 
                 <p><a href="https://drive.google.com/file/d/1y-HpgHS6EdM89rglCIdTj9vCSNbvGsK_/view?usp=sharing" target='_blank' className='text-[#0066CC] underline'>Befriending Anxiety to Reach Potential: Strategies to Empower Our Gifted Youth</a></p>
 

@@ -60,8 +60,8 @@ const Page = () => {
             <br />
             <p className='font-semibold text-xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
             <hr />
-              <p>The learning process for students engaged in ISELP requires planning supports that will motivate and engage in order to further enhance the learning experience.  As such, programming for these learners is instrumental to developing their fullest potential and to support growth. Developing the Individualized Education Plan (IEP) is the first step for schools to identify the learner&rsquo;s needs and to maximize the learner&rsquo;s abilities.</p>
-              <p>Researchers have identified that Gifted students require a faster pace, work that is appropriately challenging, and the opportunity to engage in tasks that do not have a straightforward solution (Gomez-Arizaga et al, 2020).  Students engaged in ISELP will not simply gain benefit from exploring a curriculum that is new to them. The greater cognitive skills demonstrated by these students will create ongoing demands on the need to provide programming suitable to their needs as a learner.</p>
+              <p>The learning process for students engaged in ISELP requires planning supports that will motivate and engage in order to further enhance the learning experience. As such, programming for these learners is instrumental to developing their fullest potential and to support growth. Developing the Individualized Education Plan (IEP) is the first step for schools to identify the learner&rsquo;s needs and to maximize the learner&rsquo;s abilities.</p>
+              <p>Researchers have identified that Gifted students require a faster pace, work that is appropriately challenging, and the opportunity to engage in tasks that do not have a straightforward solution (Gomez-Arizaga et al, 2020). Students engaged in ISELP will not simply gain benefit from exploring a curriculum that is new to them. The greater cognitive skills demonstrated by these students will create ongoing demands on the need to provide programming suitable to their needs as a learner.</p>
               <p className="font-semibold" id='areas-of-an-IEP-that-are-applicable-to-learners-engaged-in-ISELP'>Areas of an IEP that are applicable to learners engaged in ISELP</p>
                 <ol className='list-disc pl-12'>
                   <li><i>Transition Goals and Actions</i> (individualized to the student and their short, medium, and long-term goals)</li>
@@ -75,7 +75,7 @@ const Page = () => {
                 <p className="font-semibold" id='the-gifted-plan-enhanced-learning-plan'>The Gifted Plan/Enhanced Learning Plan</p>
                   <p>Annual Goals within the Gifted or Enhanced Learning Plan should be broad to allow students to focus on a skill they can develop throughout the curriculum in all subject areas.</p>
                   <p>The student&rsquo;s work toward the goals outlined in the Gifted/Enhanced Learning Plan should be primarily completed as part of their work in the classroom. Opportunities for withdrawal can also be included as part of the student&rsquo;s ISELP work to complement the programming in the Gifted/Enhanced Learning Plan; however, the majority of the work toward ISELP goals should be part of the teaching and learning process in the student&rsquo;s main classroom. To put it simply, students who require ISELP support need it on an ongoing basis, not for discrete blocks of time throughout the week.</p>
-                  <p>Students engaged in ISELP are most successful when they view their goals as meaningful, valuable, and relevant.  It is important that the goals are individualized to the student, and created collaboratively with the student, the family/caregiver(s), and the teaching staff that work with the student.</p>
+                  <p>Students engaged in ISELP are most successful when they view their goals as meaningful, valuable, and relevant. It is important that the goals are individualized to the student, and created collaboratively with the student, the family/caregiver(s), and the teaching staff that work with the student.</p>
           
             <br />
             <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
@@ -87,7 +87,7 @@ const Page = () => {
               <>
                 <p className="font-semibold text-xl" id='adjustments-to-the-learning-as-part-of-an-ISELP-IEP'>Adjustments to the learning as part of an ISELP IEP</p>
                   <p>As with any student with an Individual Education Plan (IEP), Students who are part of ISELP require changes in the process of learning (through differentiation, accommodations, and alternative programming, including a Gifted/Enhanced Learning Plan, as appropriate - see Figure 1, below) to maintain motivation and engagement in that learning. Giftedness should be addressed in the subjects of greatest interest or strength (Ministry of Education). This programming is not limited to the core subject areas, but can be applied to any area that matches the student&rsquo;s portrait.</p>
-                  <p>Researchers have identified that Gifted students require a faster pace, work that is appropriately challenging, and the opportunity to engage in tasks that do not have a straightforward solution (Gomez-Arizaga et al, 2020).  Students engaged in ISELP will not simply gain benefit from exploring a curriculum that is new to them. The greater cognitive skills demonstrated by these students will create ongoing demands on the need to provide programming suitable to their needs as a learner.</p>
+                  <p>Researchers have identified that Gifted students require a faster pace, work that is appropriately challenging, and the opportunity to engage in tasks that do not have a straightforward solution (Gomez-Arizaga et al, 2020). Students engaged in ISELP will not simply gain benefit from exploring a curriculum that is new to them. The greater cognitive skills demonstrated by these students will create ongoing demands on the need to provide programming suitable to their needs as a learner.</p>
                   <p>The below figure shows the overlapping terms that can be used to describe the changes in the process of learning required to adequately program for the needs of students engaged in ISELP.</p>
                   <Image
                   src='/changesInTheProcessOfLearning.png'
@@ -100,7 +100,7 @@ const Page = () => {
                   <p>ABC Ontario (2008) suggests two criteria for determining what changes to the learning process should be implemented via the student&rsquo;s IEP:</p>
                   <ol className='list-decimal pl-12'>
                     <li>All stakeholders (the student, the family/caregiver(s), the educators involved with the student, etc.) should share an understanding of the programming and be held accountable for its implementation. The IEP should clearly state the unique learning expectations for the student and how to implement them.</li>
-                    <li>Learning experiences that are enriched should be described with enough detail that subsequent teachers, and those in other subject areas, would know where to begin with the programming in their classes. The programming needs to be tracked with sufficient detail so as to avoid unnecessary repetition.</li>                 
+                    <li>Learning experiences that are enriched should be described with enough detail that subsequent teachers, and those in other subject areas, would know where to begin with the programming in their classes. The programming needs to be tracked with sufficient detail so as to avoid unnecessary repetition.</li> 
                   </ol>
 
                 <p className="font-semibold text-xl" id='differentiation-and-program-development'>Differentiation and program development</p>
@@ -178,7 +178,7 @@ const Page = () => {
                           <td className="py-4 px-6">Plan and outline how the student&rsquo;s learning will be assessed and evaluated so that the connection between the IEP and the report card will be readily apparent to both the student and the parents</td>
                           <td className="py-4 px-6">
                             <ol className='list-disc space-y-2'>
-                              <li>Consultation with the student to determine overall  programming goals, and relation to specific curricular areas</li>
+                              <li>Consultation with the student to determine overall programming goals, and relation to specific curricular areas</li>
                               <li>Consultation with classroom teacher(s) to determine implementation of Gifted/Enhanced Learning Plan goals into specific subject matter</li>
                               <li>Ongoing feedback from classroom teacher(s) and student regarding progress toward alternative expectation in Gifted/Enhanced Learning Plan</li>
                               <li>Regular communication with the student&rsquo;s family/caregivers(s) to determine effectiveness of Gifted/Enhanced Learning Plan programming and need for revision/updating, as applicable</li>
@@ -199,7 +199,7 @@ const Page = () => {
                 <p className="font-semibold text-xl" id='alternative-skills-pages'>Alternative skills pages</p>
                   <p>Per the <a href='http://www.edu.gov.on.ca/eng/document/policy/os/onschools_2017e.pdf' target='_blank' className='text-[#0066CC] underline'>Special Education in Ontario</a> guide, Alternative Skills can be recorded in the IEP in order to develop programming to complement the curricular learning. These skill areas should be designed to provide an appropriate level of challenge for the student to develop their cognitive skills, and should be achievable (in terms of mastery) with reasonable effort on the student&rsquo;s part.</p>
                   <p className='font-semibold'>Learning goal orientation</p>
-                    <p>Kulkin (2016) describes the difference between the two learning goal orientations: performance and mastery. &ldquo;Performance goals are often met in a climate of competition that prizes speed, memorization of facts, and acquisition of specific skills. In contrast, mastery goals emphasize real-world application and problem solving&rdquo; (p.29).  Mastery goals are connected to intrinsic motivation, academic efficacy, persistence, help-seeking behaviour, and is negatively correlated to test anxiety (Furner & Gonzalez-DeHass, 2011, p. 231).  </p>
+                    <p>Kulkin (2016) describes the difference between the two learning goal orientations: performance and mastery. &ldquo;Performance goals are often met in a climate of competition that prizes speed, memorization of facts, and acquisition of specific skills. In contrast, mastery goals emphasize real-world application and problem solving&rdquo; (p.29). Mastery goals are connected to intrinsic motivation, academic efficacy, persistence, help-seeking behaviour, and is negatively correlated to test anxiety (Furner & Gonzalez-DeHass, 2011, p. 231). </p>
                     <ol className='list-decimal pl-12'>
                       <li><p className='pb-2'>Performance Goals:</p>
                         <ol className='list-disc pl-12 space-y-1'>
@@ -216,7 +216,7 @@ const Page = () => {
                         </ol>
                       </li>
                     </ol>
-                  <p>In a mastery classroom, students should feel comfortable to ask questions and view questioning as evidence of a strong learner.  Students are encouraged to use their peers as &ldquo;helpful resources in the pursuit of learning&rdquo; (Furner & Gonzalez-DeHass, 2011, p.237). </p>
+                  <p>In a mastery classroom, students should feel comfortable to ask questions and view questioning as evidence of a strong learner. Students are encouraged to use their peers as &ldquo;helpful resources in the pursuit of learning&rdquo; (Furner & Gonzalez-DeHass, 2011, p.237). </p>
                   <p>In a mastery classroom environment, there is a heavy focus on the process of learning, students&rsquo; feelings towards learning are important, and evaluation is a private critique of the work rather than a confirmation of a student&rsquo;s ability.</p>
               </>
             )}
