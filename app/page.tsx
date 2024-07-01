@@ -28,7 +28,7 @@ export default function Home() {
           />
           <Card
             title='ISELP and Other Exceptionalities/Diagnoses'
-            subtitle='Learn how to support "Dual Exceptional" students with additional diagnoses or exceptionalities.'
+            subtitle='Learn how to support Dual Exceptional students with additional diagnoses or exceptionalities.'
             imageSrc='/stock2.jpg'
             linkUrl='/iselp-and-other-exceptionalities-or-diagnoses'
           />
