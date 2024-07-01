@@ -54,11 +54,11 @@ const Page = () => {
                 <p>The primary role of the classroom teacher is to assist students engaged in ISELP to develop their intellectual and academic potential in collaboration with the student, parent/caregiver, and the ISSP teacher. This development is framed through the Gifted/Enhanced Learning Plan in the student&rsquo;s IEP. Teaching a Gifted child comes with excitement and challenges. Educators must have the skills to differentiate their instruction to help students across the achievement spectrum grow to their full learning potential. The ISSP teacher can assist the classroom teacher to provide the appropriate accommodations and learning experiences that will support the student&rsquo;s learning needs. The interplay between the student, classroom teacher and ISSP teacher is integral to offering the most effective learning environment for the learner who is part of ISELP.</p>
                 <p>The graphic below highlights the roles and responsibilities of the ISSP teacher, student, family, and classroom teacher and how they are each inter-connected in the ISELP program at a school.</p>
                 <Image
-                src='/theRoleOfStaffInISELP.png'
-                width={900}
-                height={700}
-                alt='Characteristics of Gifted Learners'
-                className='rounded-lg py-6 max-h-[900px] max-w-[700px] mx-auto overflow-x-auto'
+                  src='/theRoleOfStaffInISELP.png'
+                  width={900}
+                  height={700}
+                  alt='Characteristics of Gifted Learners'
+                  className='rounded-lg py-6 max-h-[900px] max-w-[700px] mx-auto overflow-x-auto'
                 />
                 <p>As the learner engaged in ISELP will often learn faster, and can form an elaborate and differentiated knowledge of a topic, more so than the learner who does not require the support of ISELP programming, there are some specific strategies and tips for the ISSP teacher to consider in order to provide adequate and useful support. This section offers tips and consideration for monitoring the progress of the learner engaged in ISELP and for supporting teachers in offering effective programming.</p>
               
