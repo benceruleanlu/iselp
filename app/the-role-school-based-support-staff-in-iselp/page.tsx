@@ -2,36 +2,34 @@
 
 import Image from 'next/image'
 import CustomLink from '../components/customlink';
+import CustomLinkA from '../components/customlink-a';
 import NavBar from '../components/navbar-a';
 import { useState } from 'react';
 
 const Page = () => {
-  
   const [isInDepthVisible, setIsInDepthVisible] = useState(false);
 
   return (
     <>
       <NavBar />
-      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 max-w-6xl lg:space-x-16 overflow-hidden text-wrap'>
-        <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'> {/* Ran out of zyn, can't make it maintainable :(( */}
-            <p className='font-bold text-lg'>Contents</p>
-            <hr className='!mb-4'/> {/* Killing myself */}
-            <p><CustomLink href="#introduction" className="font-semibold">Introduction</CustomLink></p>
-            <p><CustomLink href="#summary-and-highlights" className="font-semibold">Summary and Highlights</CustomLink></p>
-            
-            <p><CustomLink href="#in-depth" className='font-semibold'>In-Depth</CustomLink></p>
-              <p><CustomLink href="#supporting-program extensions-and-differentiation-1" className = 'ml-2'>Supporting program extensions and differentiation</CustomLink></p>
-              <p><CustomLink href="#withdrawal-supports-(as needed)" className = 'ml-2'>Withdrawal supports (as needed)</CustomLink></p>
-              <p><CustomLink href="#opportunities-for-acceleration" className = 'ml-2'>Opportunities for acceleration</CustomLink></p>
-              <p><CustomLink href="#mental-health-(asynchronous-development)" className = 'ml-2'>Mental Health (Asynchronous Development)</CustomLink></p>
-              <p><CustomLink href="#building-self-advocacy-skills" className = 'ml-2'>Building Self-Advocacy Skills</CustomLink></p>
-              <p><CustomLink href="#SRMs-and-case-conferences" className = 'ml-2'>SRMs and Case Conferences</CustomLink></p>
-              <p className='!mb-4'><CustomLink href="#goal-setting-planning-and-transitions" className = 'ml-2'>Goal setting, planning, and transitions</CustomLink></p>
-          </div>
+      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 max-w-6xl lg:space-x-16 overflow-visible text-wrap'>
+        <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'>
+          <p className='font-bold text-lg'>Contents</p>
+          <hr className='!mb-4'/>
+          <p><CustomLinkA href="#introduction" className="font-semibold">Introduction</CustomLinkA></p>
+          <p><CustomLinkA href="#summary-and-highlights" className="font-semibold">Summary and Highlights</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#in-depth" className='font-semibold'>In-Depth</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#supporting-program extensions-and-differentiation-1" className='ml-2'>Supporting program extensions and differentiation</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#withdrawal-supports-(as needed)" className='ml-2'>Withdrawal supports (as needed)</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#opportunities-for-acceleration" className='ml-2'>Opportunities for acceleration</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#mental-health-(asynchronous-development)" className='ml-2'>Mental Health (Asynchronous Development)</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#building-self-advocacy-skills" className='ml-2'>Building Self-Advocacy Skills</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#SRMs-and-case-conferences" className='ml-2'>SRMs and Case Conferences</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)} className='!mb-4'><CustomLinkA href="#goal-setting-planning-and-transitions" className='ml-2'>Goal setting, planning, and transitions</CustomLinkA></p>
+        </div>
 
           <div className='flex flex-col mx-auto max-w-[92vw]'>
-            {/* <p className='font-bold text-3xl lg:text5xl text-slate-950 mb-4'>The Role Of School-Based Support Staff in ISELP</p> */}
-            <p className='font-bold text-3xl lg:text5xl text-red-600 mb-4'>PAGE NOT FINISHED</p>
+            <p className='font-bold text-3xl lg:text-4xl text-slate-950 mb-4 tracking-tight'>The Role Of School-Based Support Staff in ISELP</p>
             <p className='text-slate-500 lg:text-lg mb-6'>Learn how to effectively implement and support the ISELP program in a regular classroom setting.</p>
             
             <div className='space-y-4'>
@@ -41,7 +39,7 @@ const Page = () => {
 
                 <p>The majority of ISELP implementation should take place in the student&rsquo;s regular classroom. However, the development of the initial ISELP program, the regular review of the program, and updates to the program (as needed), are usually coordinated by the ISSP teacher. Key aspects of the ISSP teacher&rsquo;s role as it relates to supporting the student engaged in ISELP include the following:</p>
 
-                <ol className='list-disc pl-12'>
+                <ol className='list-disc pl-12 space-y-1'>
                   <li>Regularly support and collaborate with the classroom teacher to effectively develop ISELP programming</li>
                   <li>Providing strategies for teachers who have students engaged in ISELP in their classes, including consulting around programming opportunities</li>
                   <li>Supporting teachers in understanding the complete learner portrait of the student engaged in ISELP</li>
@@ -57,33 +55,34 @@ const Page = () => {
                 <p>The graphic below highlights the roles and responsibilities of the ISSP teacher, student, family, and classroom teacher and how they are each inter-connected in the ISELP program at a school.</p>
                 <Image
                 src='/theRoleOfStaffInISELP.png'
-                width={800}
-                height={600}
+                width={900}
+                height={700}
                 alt='Characteristics of Gifted Learners'
-                className='rounded-lg py-6 max-h-[800px] max-w-[600px] mx-auto overflow-x-auto'
+                className='rounded-lg py-6 max-h-[900px] max-w-[700px] mx-auto overflow-x-auto'
                 />
                 <p>As the learner engaged in ISELP will often learn faster, and can form an elaborate and differentiated knowledge of a topic, more so than the learner who does not require the support of ISELP programming, there are some specific strategies and tips for the ISSP teacher to consider in order to provide adequate and useful support. This section offers tips and consideration for monitoring the progress of the learner engaged in ISELP and for supporting teachers in offering effective programming.</p>
               
+              <br />
               <p className='font-semibold text-xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
               <hr />
 
                 <p>Monitoring the progress of the learner engaged in ISELP is necessary to provide the appropriate academic and socio-emotional support to ensure success.</p>
-                <p className='font-semibold text-xl' id='supporting-program-extensions-and-differentiation'>Supporting program extensions and differentiation</p>
+                <p className='font-semibold' id='supporting-program-extensions-and-differentiation'>Supporting program extensions and differentiation</p>
                   <p>To adequately support program extensions or differentiation, it is imperative that the ISSP teacher emphasize with classroom teachers that:</p>
                   
                   <ol className='list-decimal pl-12'>
-                    <li>Extensive/Alternative work should <b>not</b> be in addition to the standard work.</li>
+                    <li>Extensive/Alternative work should not be in addition to the standard work.</li>
                     <li>Evaluation of work produced in this manner should be assessed based on the standard, grade-level appropriate curricular expectations.</li>
                   </ol>
 
                   <p>Providing learners engaged in ISELP with additional work and grading &ldquo;harder&rdquo; on an alternative set of expectations is punitive (e.g., extra-workload, stricter expectations in terms of grades) and it is likely that the student will build a reluctance to attempt such work.</p>
                   <p>Supporting classroom teachers with effective programming strategies can be one of the more delicate matters that an ISSP teacher will deal with in order to support a student who is engaged in ISELP. The ISSP teacher&rsquo;s ultimate goal will be to act as an advocate for the learner&rsquo;s needs while working with the student to develop their ability to self-advocate with classroom teachers.</p>
                   
-                  <p className='font-semibold text-xl' id='mental-health-and-well-being'>Mental health and well-being</p>
+                  <p className='font-semibold' id='mental-health-and-well-being'>Mental health and well-being</p>
                     <p>Gifted learners will frequently develop in an asynchronous manner. For example, cognitively they can be quite mature relative to their peer group (e.g. greater ability for abstract reasoning, eloquent use of language, etc.) but socially can be immature and unsure as to how to relate to their peers. This can lead to anxieties and feelings of not belonging. It is important for the ISSP and/or Guidance teacher to keep apprised of their feelings in this regard.</p>
                     <p>Additional supports for the learner engaged in ISELP can be accessed through PSSP staff, as required, through the Student Review Process.</p>
 
-                  <p className='font-semibold text-xl' id='goal-setting-and-transitions'>Goal setting and transitions</p>
+                  <p className='font-semibold' id='goal-setting-and-transitions'>Goal setting and transitions</p>
                     <p>As students approach middle school and secondary education, it&rsquo;s crucial for them to consider their educational pathways.</p>
                     <p>School teams should communicate the choices and associated timelines to families/caregivers and students to aid in goal setting and planning, to provide for the necessary time for the student to consider options and make an effective decision that supports their goals.</p>
                     <p>It&rsquo;s also important to recognize that Gifted learners often face challenges in this decision-making due to their diverse interests, talents, and family expectations. Goal setting becomes a key component in gathering student input for their Individual Education Plan (IEP) annually. These students, often high achievers with extensive extracurricular involvement, need guidance to evaluate educational programs that align with their interests and learning profile, while also exploring additional opportunities without overextending themselves.</p>
@@ -105,7 +104,7 @@ const Page = () => {
                   </ol>
                   <p>Providing learners engaged in ISELP with additional work and grading &ldquo;harder&rdquo; on an alternative set of expectations is punitive (e.g., extra-workload, stricter expectations in terms of grades) and it is likely that the student will build a reluctance to attempt such work. Instead, ideas for enhancement could include allowing a multimedia presentation of work originally assigned as an essay, having the student study an area of interest in depth while classmates are learning a general overview of a subject, have the the student create a learning game to try with other students or other work that is derived from the student&rsquo;s learner portrait and IEP goals.</p>
                   <p>Facilitating conversations with classroom teachers on programming can be one of the more delicate matters that an ISSP teacher will deal with in order to support a student who is engaged in ISELP. The ISSP teacher&rsquo;s ultimate goal will be to act as an advocate for the learner&rsquo;s needs while working with the student to develop their ability to self-advocate with classroom teachers. If successful, their experience as a student can be greatly empowered.</p>
-                  <p className="font-semibold text-lg">Program Extensions Resources</p>
+                  <p className="font-semibold">Program Extensions Resources</p>
                   <ol className='list-disc pl-12 space-y-1'>
                     <li><a href="https://www.st-clair.net/Data/Sites/1/media/public/SpecialEd/gifted-program/differentiation-and-enrichment-strategies-for-gifted-students.pdf" target='_blank' className='text-[#0066CC] underline'>Differentiation and Extension Resources for Gifted and Talented Learners (SCCSB)</a></li>
                     <li><a href="https://www.teachspeced.ca/giftedness" target='_blank' className='text-[#0066CC] underline'>Teach Spec. Ed. (OTF) - Giftedness</a></li>
@@ -114,6 +113,7 @@ const Page = () => {
                   </ol>
                   
                   <p className='font-semibold text-xl' id='withdrawal-supports-(as needed)'>Withdrawal supports (as needed)</p>
+                  <p className="font-semibold">Working with Like-Minded Peers</p>
                     <p>While the majority of the programming offered to students participating in ISELP should occur as part of the regular teaching and learning activities in the student&rsquo;s main classroom, there will be times when the student will benefit from opportunities to work outside of the classroom on individual or small group tasks, tailored to the goals in their Gifted/Enhanced Learning Plan.</p>
                     <p>The following are examples of withdrawal opportunities that can benefit students participating in ISELP as a compliment to the programming provided in their regular classroom:</p>
                     <ol className='list-disc pl-12 space-y-1'>
@@ -142,10 +142,10 @@ const Page = () => {
                     <p>For further information on asynchronous development and the Gifted learner, see the link below.</p>
                     <p><a href = "http://dev.nagc.org/resources-publications/resources-parents/social-emotional-issues/asynchronous-development" target='_blank' className='text-[#0066CC] underline'>Asynchronous Development | National Association for Gifted Children</a></p>
                       
-                    <p className='font-semibold text-lg'>Accessing support from PSSP staff</p>
+                    <p className='font-semibold'>Accessing support from PSSP staff</p>
                     <p>As with any student requiring the support of PSSP staff, Gifted students can be brough to a Student Review Meeting to discuss interventions and supports that can be provided by board PSSP staff (e.g., Psychologists, Social Workers). Below is an outline of the services available from PSSP staff:</p>
                       
-                      <p className = "font-semibold text-base">Social Work</p>
+                      <p className = "font-semibold">Social Work</p>
                         <p>School social workers assist schools in identifying and helping to address and remove those obstacles for children and within their environment, including systemic racism and oppression, which interfere with their ability to benefit from educational experiences. Currently, the most frequently requested types of social work service are:</p>
                         <ol className='list-disc pl-12 space-y-1'>
                           <li>goal-focused, time-limited counselling with students and families</li>
@@ -173,10 +173,10 @@ const Page = () => {
                           <li>providing intensive case management</li>
                         </ol>
                         <p>Psychoeducational Consultants may facilitate a variety of group counselling programs (e.g., to address such issues as self-regulation, grief, parental separation/divorce, anger management, social skills, etc.) and can also provide support through individual counselling and crisis management support.</p>
-                    <p className='font-semibold text-lg'>Check-Ins </p>
+                    <p className='font-semibold'>Check-Ins </p>
                         <p>It can be beneficial to establish a centralized location to receive accommodations, support, a place to work or de-escalate if needed (e.g., the ISSP office, a resource room, etc.). SEA devices that are accessed by students engaged in ISELP can be kept here, along with other tools to support student accommodations.</p>
                         <p>As with any student in need of support, Gifted learners may seek your assistance in an irregular and/or unconventional manner. Having a consistent physical space for them to find you can be critical for the support relationship to develop, creating an &ldquo;open-door&rdquo; effect. Regular check-ins support building a positive rapport with the students that support staff are working with.</p>
-                    <p className="font-semibold text-lg">Mental Health Resources</p>
+                    <p className="font-semibold">Mental Health Resources</p>
                     <ol className='list-disc pl-12 space-y-1'>
                         <li><a href = "https://smho-smso.ca/online-resources/wayfinder-your-grade-by-grade-guide-to-teach-about-mental-health/" target='_blank' className='text-[#0066CC] underline'>School Mental Health Ontario</a></li>
                         <li><a href = "https://www.overcomingobstacles.org/" target='_blank' className='text-[#0066CC] underline'>Overcoming Obstacles Digital Library</a></li>
@@ -185,14 +185,14 @@ const Page = () => {
                 <p className='font-semibold text-xl' id='building-self-advocacy-skills'>Building Self-Advocacy Skills</p>
                   <p>To effectively support a student engaged in ISELP, it is imperative to support the learner in building advocacy skills. This will ultimately allow the learner to speak to their needs and strengths and to have a solid understanding of their learner portrait and greater cognitive abilities. By speaking for themselves and understanding their own learner portrait, students will more efficiently receive the necessary resources and/or support they need from their classroom teachers as well as take agency in their learning. Modelling problem solving is one way the ISSP teacher can initiate self-advocacy skills. Self-advocacy for the learner engaged in ISELP is also an outlet for expressing positive and creative energy, and a passion for innovation and justice that many Gifted students possess. For example, encouraging the learner to write a proposal to their teacher or prepare a presentation on a school issue will serve them well beyond school. When supporting students to learn how to self-advocate in respectful and responsible ways, the ISSP teacher will help the learner &ldquo;own&rdquo; their Giftedness and authentically hone their skills.</p>
                   <div className='flex py-1 max-w-[560px] max-h-[315px] mx-auto'><iframe width="560" height="315" src="https://www.youtube.com/embed/d-YikEGUz0Y?si=DHKwR9Ja7kVFIHPo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe></div>
-                  <p className='font-semibold text-lg'>4 Tips to Support the Gifted Student with Self-Advocacy</p>
+                  <p className='font-semibold'>4 Tips to Support the Gifted Student with Self-Advocacy</p>
                   <ol className = 'list-disc pl-12 space-y-1'>
                     <li>Pick the right time</li>
                     <li>Understand your audience (i.e., when advocating with a teacher, administrator, family/caregiver)</li>
                     <li>Identify the issue/problem while recognizing others&rsquo; perspectives</li>
                     <li>Keep an open mind and be realistic</li>
                   </ol>
-                  <p className="font-semibold text-lg">Self Advocacy Resources</p>
+                  <p className="font-semibold">Self Advocacy Resources</p>
                   <ol className = 'list-disc pl-12 space-y-1'>
                       <li><a href = "https://neurodiversitypodcast.com/home/2018/5/2/episode-8-a-guide-to-self-advocacy" target='_blank' className='text-[#0066CC] underline'>A Guide to Self-Advocacy</a></li>
                       <li><a href = "https://cdn.ymaws.com/default/files/files/Parked-Files/Self-Advocacy%20PHP%20Sept%202017.pdf" target='_blank' className='text-[#0066CC] underline'>Letting Go While Holding On</a></li>
@@ -216,14 +216,14 @@ const Page = () => {
                   <p>For many students, the results of the grade 4 screening tool is the first time that they will be referred to a Level 2 Student Review Meeting (SRM) to discuss possible programming and services, while others may have been referred before for exceptional needs for extensive academic work, social-emotional issues, or both.</p>
                   <p>Whenever the student is initially brought to a Level 1 SRM or a Level 2 SRM through the <a href = "https://sites.google.com/pdsb.net/student-review-process-srp-oct/home" target='_blank' className='text-[#0066CC] underline'>Student Review Process</a>, this is the beginning of an ongoing and more collaborative look into the student portrait. However, In cases where the student has additional needs, it may be beneficial for the champion (e.g., the classroom teacher, ISSP and/or Guidance teacher, etc.) to organize a Level 1 Student Review Meeting (SRM) or case conference with classroom teachers, support staff, the student, and family/caregivers to ensure - early on in the school year - the best possible ways for the student to experience challenge and achieve success.</p>
                   <p>Case conferences can be completed either formally or informally depending upon the individual needs of the student. During case conferences, important information about the student can be shared, suggested accommodations can be made, purposeful resources can be explored, and questions can be answered.</p>
-                  <p><b>Partnership between the student, family/caregivers, classroom teacher, and ISSP and Guidance teachers are key to ensuring that the learner&rsquo;s extensive learning needs are met.</b></p>
+                  <p>Partnership between the student, family/caregivers, classroom teacher, and ISSP and Guidance teachers are key to ensuring that the learner&rsquo;s extensive learning needs are met.</p>
                
                 <p className='font-semibold text-xl' id='goal-setting-planning-and-transitions'>Goal setting, planning, and transitions</p> 
                   <p>As students approach middle school and secondary education, it&rsquo;s crucial for them to consider their educational pathways, including Regional Learning Choices Programs (like Sci-Tech, French Immersion, Advanced Placement, International Baccalaureate), Secondary Enhanced Learning Program, or their home school.</p>
                   <p>School teams should communicate the choices and associated timelines to families/caregivers and students to aid in goal setting and planning. For instance, entry into Regional Programs typically occurs in grade 6 or 9 via an application and lottery system, except for the Arts Program which starts in grade 7. On the other hand, placement in Enhanced Learning Classes or Secondary Enhanced Learning Programs follows the IPRC process.</p>
                   <p>It&rsquo;s also important to recognize that Gifted learners often face challenges in this decision-making due to their diverse interests, talents, and family expectations. Goal setting becomes a key component in gathering student input for their Individual Education Plan (IEP) annually. These students, often high achievers with extensive extracurricular involvement, need guidance to evaluate educational programs that align with their interests and learning profile, while also exploring additional opportunities without overextending themselves.</p>
                   <p>Therefore, early and ongoing planning support is recommended, ensuring students fully understand their options and can identify the programs that best align with their interests and developmental needs.</p>
-                  <p className='font-semibold text-lg'>Resources</p>
+                  <p className='font-semibold'>Resources</p>
                     <p><a href = "https://www.peelschools.org/elementary-regional-learning-choice-programs" target='_blank' className='text-[#0066CC] underline'>Elementary Regional Learning Choice Programs</a></p>
                     <p><a href = "https://www.peelschools.org/secondary-regional-learning-choice-programs" target='_blank' className='text-[#0066CC] underline'>Secondary Regional Learning Choice Programs</a></p>
               </>
