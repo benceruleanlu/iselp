@@ -14,9 +14,9 @@ const Page = () => {
     <>
       <NavBar />
       <div className='flex flex-row w-11/12 mx-auto my-6 lg:my-16 max-w-6xl lg:space-x-16 overflow-visible text-wrap'>
-        <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'> {/* Ran out of zyn, can't make it maintainable :(( */}
+        <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'>
           <p className='font-bold text-lg'>Contents</p>
-          <hr className='!mb-4'/> {/* Killing myself */}
+          <hr className='!mb-4'/>
           <p><CustomLinkA href="#introduction" className="font-semibold">Introduction</CustomLinkA></p>
           <p><CustomLinkA href="#what-is-meant-by-dual-identified-twice-exceptional-or-2e" className='ml-2'>What is meant by Dual Identified, Twice Exceptional, or 2e</CustomLinkA></p>
           <p><CustomLinkA href="#summary-and-highlights" className="font-semibold">Summary and Highlights</CustomLinkA></p>

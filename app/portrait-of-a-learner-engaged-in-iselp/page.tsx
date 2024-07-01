@@ -14,9 +14,9 @@ const Page = () => {
     <>
       <NavBar />
       <div className='flex flex-row w-11/12 mx-auto my-6 lg:my-16 max-w-6xl lg:space-x-16 overflow-visible text-wrap'>
-        <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'> {/* Ran out of zyn, can't make it maintainable :(( */}
+        <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'>
           <p className='font-bold text-lg'>Contents</p>
-          <hr className='!mb-4'/> {/* Killing myself */}
+          <hr className='!mb-4'/>
           <p><CustomLinkA href="#summary-and-highlights" className="font-semibold">Summary and Highlights</CustomLinkA></p>
           <p><CustomLinkA href="#affective-qualities-of-gifted-learners-1" className='ml-2'>Affective qualities of Gifted learners</CustomLinkA></p>
           <p className='!mb-4'><CustomLinkA href="#gifted-underachievement" className='ml-2'>Gifted underachievement</CustomLinkA></p>
