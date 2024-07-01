@@ -48,7 +48,7 @@ const Page = () => {
 
             <p className='font-semibold text-xl'>What is meant by Dual Identified, Twice Exceptional, or 2e</p>
 
-            <p>The term Dual Identified or ‘Twice Exceptional’ - often abbreviated as ‘2e’ (typically in American research and literature) - is used to identify a group of students who are exceptional because they may have one or more diagnoses and/or exceptionalities in addition to being identified as Gifted. These students will possess superior intellectual abilities, coupled with one or more learning difficulties. Dual identified students can be overlooked, misclassified, neglected, or not receive the proper programming as the characteristics of one exceptionality can mask those of the other and the student appears as average in their school achievement. These students can be misunderstood as one exceptionality hides the other. Dual Identified students require a Special Education placement and additional support, such as extensions in their programming to reach their academic and social-emotional potential.</p>
+            <p>The term Dual Identified or &lsquo;Twice Exceptional&rsquo; - often abbreviated as &lsquo;2e&rsquo; (typically in American research and literature) - is used to identify a group of students who are exceptional because they may have one or more diagnoses and/or exceptionalities in addition to being identified as Gifted. These students will possess superior intellectual abilities, coupled with one or more learning difficulties. Dual identified students can be overlooked, misclassified, neglected, or not receive the proper programming as the characteristics of one exceptionality can mask those of the other and the student appears as average in their school achievement. These students can be misunderstood as one exceptionality hides the other. Dual Identified students require a Special Education placement and additional support, such as extensions in their programming to reach their academic and social-emotional potential.</p>
 
             <br />
             <p className='font-semibold text-xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
@@ -74,12 +74,12 @@ const Page = () => {
               <li>Allow for extra time for assessment tasks</li>
               <li>Verbally scaffold (e.g., ask questions on a test instead of having the student read them independently)</li>
               <li>Use earphones or noise-cancelling headphones for less auditory stimuli</li>
-              <li>Adapt teaching and learning activities to include the student’s preferred learning style</li>
+              <li>Adapt teaching and learning activities to include the student&rsquo;s preferred learning style</li>
               <li>Know your student. Explore topics to understand your students interests</li>
               <li>Flexible curriculum pace</li>
               <li>Increased focus on deep learning through understanding concepts</li>
               <li>Consider shifting assessment to being feedback-focused/gradeless, in order to support students managing perfectionism</li>
-              <li>Consider other strategies in PDSB’s <a href="https://pdsb1.sharepoint.com/sites/Innovation/SitePages/EML-2021-and-the-Innovative-Elements-Knowing-and-Doing-Guides.aspx" target='_blank' className='text-[#0066CC] underline'>Empowering Modern Learners Knowing and Doing Guides</a></li>
+              <li>Consider other strategies in PDSB&rsquo;s <a href="https://pdsb1.sharepoint.com/sites/Innovation/SitePages/EML-2021-and-the-Innovative-Elements-Knowing-and-Doing-Guides.aspx" target='_blank' className='text-[#0066CC] underline'>Empowering Modern Learners Knowing and Doing Guides</a></li>
             </ol>
 
             <br />
@@ -97,7 +97,7 @@ const Page = () => {
 
                 <p className='font-semibold'>Gifted</p>
 
-                <p>A student identified as Gifted typically demonstrates behaviour consisting of an interaction between three traits: above average intellectual abilities, high levels of task commitment, and creativity. Students who are identified as Gifted are considered to be academically talented individuals who have abilities in one or more domains that are significantly advanced (Renzulli, 1978, as cited in Douglass, 2008). However, perceptions of giftedness are also shaped by culture and cultural norms, including beliefs, customs, and values (Borland, 2012, as cited by Parekh, et. al., 2018). The term “Gifted” can also be understood as a ‘learning difference’. This typically involves being identified as Gifted based on the results of an IQ test.</p>
+                <p>A student identified as Gifted typically demonstrates behaviour consisting of an interaction between three traits: above average intellectual abilities, high levels of task commitment, and creativity. Students who are identified as Gifted are considered to be academically talented individuals who have abilities in one or more domains that are significantly advanced (Renzulli, 1978, as cited in Douglass, 2008). However, perceptions of giftedness are also shaped by culture and cultural norms, including beliefs, customs, and values (Borland, 2012, as cited by Parekh, et. al., 2018). The term “Gifted” can also be understood as a &lsquo;learning difference&rsquo;. This typically involves being identified as Gifted based on the results of an IQ test.</p>
 
                 <p className='font-semibold'>Learning Disability</p>
 
@@ -125,11 +125,11 @@ const Page = () => {
                   <li>Ability to concentrate for unusually long periods of time when the topic is of interest, but inability to control his or her actions and attention when the topic is not of interest</li>
                 </ol>
 
-                <p>Taken from: ‘List of possible markers of the combination of giftedness and LD’, from the <a href="https://education.wm.edu/centers/ttac/documents/packets/twiceexceptional.pdf" target='_blank' className='text-[#0066CC] underline'>Twice Exceptional Information Packet</a> (2014)</p>
+                <p>Taken from: &lsquo;List of possible markers of the combination of giftedness and LD&rsquo;, from the <a href="https://education.wm.edu/centers/ttac/documents/packets/twiceexceptional.pdf" target='_blank' className='text-[#0066CC] underline'>Twice Exceptional Information Packet</a> (2014)</p>
 
                 <p className='font-semibold'>How does twice-exceptionality look at school and at home?</p>
                 
-                <p>From the National Association for Gifted Children, '<a href="https://dev.nagc.org/resources-publications/resources-parents/twice-exceptional-students" target='_blank' className='text-[#0066CC] underline'>Twice Exceptional Students</a>.'</p>
+                <p>From the National Association for Gifted Children, &apos;<a href="https://dev.nagc.org/resources-publications/resources-parents/twice-exceptional-students" target='_blank' className='text-[#0066CC] underline'>Twice Exceptional Students</a>.&apos;</p>
 
                 <div className="overflow-x-auto shadow-md sm:rounded-lg bg-white">
                   <table className="w-full text-sm text-left text-gray-700 min-w-[800px]">
@@ -149,15 +149,15 @@ const Page = () => {
                           The start of the school year has already proved quite challenging. I have a new student that shows high interest and ability in math and science. Her level of understanding and problem-solving capabilities are off the charts. So, why the challenge? This student has extreme difficulty with any work that requires writing and reading. So much so that homework, note-taking, and assigned reading are very hard for her to complete. Does she have a learning disability?
                         </td>
                         <td className="py-4 px-6">
-                         Each night, homework ends in frustration, tears, and meltdowns for my middle schooler. It takes her hours each night to complete her homework, when other classmates seem to complete assignments in a fraction of the time. She often seems disorganized or clueless about what needs to be done, and her backpack is a mess. She’s very creative and enjoys delving into deep, complex content-- but is having major difficulties when it comes to language arts and math.
+                         Each night, homework ends in frustration, tears, and meltdowns for my middle schooler. It takes her hours each night to complete her homework, when other classmates seem to complete assignments in a fraction of the time. She often seems disorganized or clueless about what needs to be done, and her backpack is a mess. She&rsquo;s very creative and enjoys delving into deep, complex content-- but is having major difficulties when it comes to language arts and math.
                         </td>
                       </tr>
                       <tr className="bg-gray-50 border-b border-gray-200">
                         <td className="py-4 px-6">
-                          I wish there was an answer for what is going on with one of my students this year. “Jim” is a bright, highly motivated 10-year-old who enjoys the STEM problems we cover in class. He’s a walking encyclopedia on the planet Mars and recent missions; he’s even designed his own plans for a new Mars rover. Despite this, Jim is extremely quiet and withdrawn, does not seem to have any friends, and rarely looks me in the eye when I try to talk with him about Mars or other subjects.
+                          I wish there was an answer for what is going on with one of my students this year. “Jim” is a bright, highly motivated 10-year-old who enjoys the STEM problems we cover in class. He&rsquo;s a walking encyclopedia on the planet Mars and recent missions; he&rsquo;s even designed his own plans for a new Mars rover. Despite this, Jim is extremely quiet and withdrawn, does not seem to have any friends, and rarely looks me in the eye when I try to talk with him about Mars or other subjects.
                         </td>
                         <td className="py-4 px-6">
-                          I’ve been receiving complaints from the teacher about my son, who is concerned he is distracting and annoying his classmates. She described   him as interruptive and rude, often not paying attention. He has a high IQ, but is viewed as a “behavior problem.” He has deep interests outside of school, and can engage for hours in topics he cares about. Normally outgoing with a great sense of humor, he is becoming withdrawn and hates school. I wish for more than negative phone calls and emails from the school.
+                          I&rsquo;ve been receiving complaints from the teacher about my son, who is concerned he is distracting and annoying his classmates. She described   him as interruptive and rude, often not paying attention. He has a high IQ, but is viewed as a “behavior problem.” He has deep interests outside of school, and can engage for hours in topics he cares about. Normally outgoing with a great sense of humor, he is becoming withdrawn and hates school. I wish for more than negative phone calls and emails from the school.
                         </td>
                       </tr>
                     </tbody>
@@ -173,17 +173,17 @@ const Page = () => {
                   <li>Allow for extra time for assessment tasks</li>
                   <li>Verbally scaffold (e.g., ask questions on a test instead of having the student read them independently)</li>
                   <li>Use earphones or noise-cancelling headphones for less auditory stimuli</li>
-                  <li>Adapt teaching and learning activities to include the student’s preferred learning style</li>
+                  <li>Adapt teaching and learning activities to include the student&rsquo;s preferred learning style</li>
                   <li>Know your student. Explore topics to understand your students interests</li>
                   <li>Flexible curriculum pace</li>
                   <li>Increased focus on deep learning through understanding concepts</li>
                   <li>Consider shifting assessment to being feedback-focused/gradeless, in order to support students managing perfectionism</li>
-                  <li>Consider other strategies in PDSB’s <a href="https://pdsb1.sharepoint.com/sites/Innovation/SitePages/EML-2021-and-the-Innovative-Elements-Knowing-and-Doing-Guides.aspx" target='_blank' className='text-[#0066CC] underline'>Empowering Modern Learners Knowing and Doing Guides</a></li>
+                  <li>Consider other strategies in PDSB&rsquo;s <a href="https://pdsb1.sharepoint.com/sites/Innovation/SitePages/EML-2021-and-the-Innovative-Elements-Knowing-and-Doing-Guides.aspx" target='_blank' className='text-[#0066CC] underline'>Empowering Modern Learners Knowing and Doing Guides</a></li>
                 </ol>
 
                 <p className='font-semibold text-xl' id='what-is-giftedness'>Specific Strategies for Working with Dual Identified Gifted Students</p>
 
-                <p>The William & Mary School of Education has developed a <a href="https://education.wm.edu/centers/ttac/resources/considerations/index.php" target='_blank' className='text-[#0066CC] underline'>Considerations Packet</a> for educators working with Dual Identified Gifted students. Examples of strategies and suggestions for working with Dual Identified students can be found in the sections below and have been taken from the William & Mary School of Education's work.</p>
+                <p>The William & Mary School of Education has developed a <a href="https://education.wm.edu/centers/ttac/resources/considerations/index.php" target='_blank' className='text-[#0066CC] underline'>Considerations Packet</a> for educators working with Dual Identified Gifted students. Examples of strategies and suggestions for working with Dual Identified students can be found in the sections below and have been taken from the William & Mary School of Education&apos;s work.</p>
 
                 <p>Many of these strategies are beneficial for all students who require Special Education support, but are listed here in relation specifically to students participating in ISELP.</p>
               </>
