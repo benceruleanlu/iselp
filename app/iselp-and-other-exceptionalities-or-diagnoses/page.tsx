@@ -17,36 +17,29 @@ const Page = () => {
         <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'> {/* Ran out of zyn, can't make it maintainable :(( */}
           <p className='font-bold text-lg'>Contents</p>
           <hr className='!mb-4'/> {/* Killing myself */}
+          <p><CustomLinkA href="#introduction" className="font-semibold">Introduction</CustomLinkA></p>
+          <p><CustomLinkA href="#what-is-meant-by-dual-identified-twice-exceptional-or-2e" className='ml-2'>What is meant by Dual Identified, Twice Exceptional, or 2e</CustomLinkA></p>
           <p><CustomLinkA href="#summary-and-highlights" className="font-semibold">Summary and Highlights</CustomLinkA></p>
-          <p><CustomLinkA href="#affective-qualities-of-gifted-learners-1" className='ml-2'>Affective qualities of Gifted learners</CustomLinkA></p>
-          <p className='!mb-4'><CustomLinkA href="#gifted-underachievement" className='ml-2'>Gifted underachievement</CustomLinkA></p>
           <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#in-depth" className='font-semibold'>In-Depth</CustomLinkA></p>
-          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#what-is-giftedness" className='ml-2'>What is Giftedness?</CustomLinkA></p>
-          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#common-characteristics-of-gifted-learners" className='ml-2'>Common characteristics of Gifted learners</CustomLinkA></p>
-          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#portraits-of-gifted-and-talented" className='ml-2'>Portraits of Gifted and talented</CustomLinkA></p>
-          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#misconceptions-about-giftedness" className='ml-2'>Misconceptions about Giftedness</CustomLinkA></p>
-          <p onClick={() => setIsInDepthVisible(true)} className='!mb-4'><CustomLinkA href="#affective-qualities-of-gifted-learners-2" className='ml-2'>Affective qualities of Gifted learners</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#portrait-of-a-dual-identified-student" className='ml-2'>Portrait of a Dual Identified Student</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#common-traits-of-dual-identified-learners-gifted-and-ld" className='ml-2'>Common traits of Dual Identified learners (Gifted and LD)</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#programming-strategies-for-dual-identified-students" className='ml-2'>Programming strategies for Dual Identified students</CustomLinkA></p>
+          <p onClick={() => setIsInDepthVisible(true)}><CustomLinkA href="#specific-strategies-for-working-with-dual-identified-gifted-students" className='ml-2'>Specific Strategies for Working with Dual Identified Gifted Students</CustomLinkA></p>
           <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#further-reading-and-resources" className='font-semibold'>Further Reading and Resources</CustomLinkA></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#resources" className='ml-2'>Resources</CustomLinkA></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#videos" className='ml-2'>Videos</CustomLinkA></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#websites" className='ml-2'>Websites</CustomLinkA></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#articles" className='ml-2'>Articles</CustomLinkA></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#more-on-anxiety-as-it-pertains-to-gifted-students" className='ml-2'>More on anxiety as it pertains to Gifted students</CustomLinkA></p>
-          <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#footnotes" className='ml-2'>Footnotes</CustomLinkA></p>
         </div>
         <div className='flex flex-col mx-auto max-w-[92vw]'>
           <p className='font-bold text-3xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>ISELP and Other Exceptionalities/Diagnoses</p>
           <p className='text-slate-500 lg:text-lg mb-6'>Learn how to support Dual Exceptional students with additional diagnoses or exceptionalities.</p>
 
           <div className='space-y-4'>
-            <p className='font-semibold text-xl lg:text-3xl' id='summary-and-highlights'>Introduction</p>
+            <p className='font-semibold text-xl lg:text-3xl' id='introduction'>Introduction</p>
             <hr />
 
             <p>For our purposes in this resource, “Dual Exceptional” will refer to a student who is identified as Exceptional Intellectual - Gifted, and who has other diagnoses or exceptionalities, which may or may not be identified.</p>
 
             <p>Students who are receiving Non-identified Special Education support through ISELP may also have additional diagnoses/identifications, and can also be considered as “Dual Identified” for the purposes of this section. For example, some students with exceptional cognitive abilities also may have an additional diagnosis (e.g., ADHD, anxiety) and/or identifications (e.g., ASD), which impacts their learning.</p>
 
-            <p className='font-semibold text-xl'>What is meant by Dual Identified, Twice Exceptional, or 2e</p>
+            <p className='font-semibold text-xl' id='what-is-meant-by-dual-identified-twice-exceptional-or-2e'>What is meant by Dual Identified, Twice Exceptional, or 2e</p>
 
             <p>The term Dual Identified or &lsquo;Twice Exceptional&rsquo; - often abbreviated as &lsquo;2e&rsquo; (typically in American research and literature) - is used to identify a group of students who are exceptional because they may have one or more diagnoses and/or exceptionalities in addition to being identified as Gifted. These students will possess superior intellectual abilities, coupled with one or more learning difficulties. Dual identified students can be overlooked, misclassified, neglected, or not receive the proper programming as the characteristics of one exceptionality can mask those of the other and the student appears as average in their school achievement. These students can be misunderstood as one exceptionality hides the other. Dual Identified students require a Special Education placement and additional support, such as extensions in their programming to reach their academic and social-emotional potential.</p>
 
@@ -91,7 +84,7 @@ const Page = () => {
 
             {isInDepthVisible && (
               <>
-                <p className='font-semibold text-xl' id='what-is-giftedness'>Portrait of a Dual Identified Student</p>
+                <p className='font-semibold text-xl' id='portrait-of-a-dual-identified-student'>Portrait of a Dual Identified Student</p>
 
                 <p>The portraits of Dual Identified students can be highly diverse. In order to clarify and improve understanding of the various combinations of exceptionalities, potential combinations of exceptionalities are outlined below.</p>
 
@@ -108,7 +101,7 @@ const Page = () => {
                 <p>The portrait of a student identified as Gifted with other identified exceptionalities can be characterized by high activity levels, impulsivity, low frustration tolerance, and social/emotional difficulties that coexist with Giftedness. The most common diagnosis identified as co-occurring with giftedness is Attention-deficit/hyperactivity disorder (ADHD) (Neihart, 2003; Webb et al., 2005). Since LD and ADHD often co-exist, it is conceivable that individual students show characteristics related to multiple categories of exceptionality (e.g., Giftedness, LD, and ADHD).</p>
                 <p>Dual Identified students have exceptional abilities but can have an inability to grasp smaller concepts. Their overall abilities are often well beyond their grade level, and they can be a master of recalling and may demonstrate diverse modalities in their thinking. However, their approaches to learning and thinking skills can be impacted by additional factors such as dyslexia, dysgraphia, or social-emotional needs. Dual exceptional learners may struggle with time management, planning, or with task completion.</p>
 
-                <p className='font-semibold text-xl' id='what-is-giftedness'>Common traits of Dual Identified learners (Gifted and LD)</p>
+                <p className='font-semibold text-xl' id='common-traits-of-dual-identified-learners-gifted-and-ld'>Common traits of Dual Identified learners (Gifted and LD)</p>
 
                 <p>The following is a list of common characteristics of Dual Identified learners. This list is not exhaustive.</p>
 
@@ -164,7 +157,7 @@ const Page = () => {
                   </table>
                 </div>
 
-                <p className='font-semibold text-xl' id='what-is-giftedness'>Programming strategies for Dual Identified students</p>
+                <p className='font-semibold text-xl' id='programming-strategies-for-dual-identified-students'>Programming strategies for Dual Identified students</p>
 
                 <p>Below are some programming strategies and accommodations educators can consider in supporting Dual Identified learners.</p>
 
@@ -181,7 +174,7 @@ const Page = () => {
                   <li>Consider other strategies in PDSB&rsquo;s <a href="https://pdsb1.sharepoint.com/sites/Innovation/SitePages/EML-2021-and-the-Innovative-Elements-Knowing-and-Doing-Guides.aspx" target='_blank' className='text-[#0066CC] underline'>Empowering Modern Learners Knowing and Doing Guides</a></li>
                 </ol>
 
-                <p className='font-semibold text-xl' id='what-is-giftedness'>Specific Strategies for Working with Dual Identified Gifted Students</p>
+                <p className='font-semibold text-xl' id='specific-strategies-for-working-with-dual-identified-gifted-students'>Specific Strategies for Working with Dual Identified Gifted Students</p>
 
                 <p>The William & Mary School of Education has developed a <a href="https://education.wm.edu/centers/ttac/resources/considerations/index.php" target='_blank' className='text-[#0066CC] underline'>Considerations Packet</a> for educators working with Dual Identified Gifted students. Examples of strategies and suggestions for working with Dual Identified students can be found in the sections below and have been taken from the William & Mary School of Education&apos;s work.</p>
 
