@@ -169,7 +169,7 @@ const Page = () => {
 
                                     <p className='font-semibold'>Developing Inquiry/Questioning Processes</p>
                                     <div className="overflow-x-auto shadow-md sm:rounded-lg bg-white">
-                                        <table className="w-full text-sm text-left text-gray-700 min-w-[800px]">
+                                        <table className="w-full text-sm text-left text-gray-700 min-w-[40%]">
                                             <thead className="text-xs text-gray-700 uppercase bg-gray-100">
                                                 <th scope="col" className="py-3 px-6 text-center">Description</th>
                                                 <th scope="col" className="py-3 px-6 text-center">Implementation in the Classroom</th>
