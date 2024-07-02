@@ -13,7 +13,7 @@ const Page = () => {
       <NavBar />
       <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 max-w-6xl lg:space-x-16 overflow-visible text-wrap'>
         <div className='flex flex-col mx-auto max-w-[92vw]'>
-          <p className='font-bold text-3xl lg:text-4xl text-slate-950 mb-4 tracking-tight'>References, Resources, and Further Reading</p>
+          <p className='font-bold text-5xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>References, Resources, and Further Reading</p>
           <p className='text-slate-500 lg:text-lg mb-6'>The print version of this resource is available here: <a href='https://docs.google.com/document/d/19JGCfusp80INEaoEr3Kflopd67AFguzkGtJh-I2Y7Lg/edit?usp=sharing' target = '_blank' className='text-[#0066CC] underline'>The In-School Enhanced Learning Program: A Guide</a></p>        
           <div className='space-y-4'>
             <p className='text-gray-600	text-sm italic'>This guide was adapted from the <a href='https://docs.google.com/document/d/19JGCfusp80INEaoEr3Kflopd67AFguzkGtJh-I2Y7Lg/edit?usp=sharing' target = '_blank' className='text-[#0066CC] underline'>Accommodating and Supporting Gifted Learners in Peel Secondary Schools</a> document.</p>
