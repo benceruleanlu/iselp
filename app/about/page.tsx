@@ -8,7 +8,9 @@ const Page = () => {
       <Navbar />
       <div className="mx-auto my-6 flex w-11/12 flex-row overflow-visible text-wrap lg:mb-16 lg:mt-8 lg:space-x-16">
         <div>
-          <p className="mb-4 text-4xl lg:text-5xl font-bold text-slate-950">About</p>
+          <p className="mb-4 text-4xl font-bold text-slate-950 lg:text-5xl">
+            About
+          </p>
           <p className="mb-6 text-lg text-slate-500">Learn about the site.</p>
 
           <div className="space-y-4">

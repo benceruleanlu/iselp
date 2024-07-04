@@ -145,7 +145,7 @@ const Page = () => {
               width={900}
               height={700}
               alt="Characteristics of Gifted Learners"
-              className="mx-auto max-h-[900px] max-w-screen overflow-x-auto rounded-lg py-6"
+              className="max-w-screen mx-auto max-h-[900px] overflow-x-auto rounded-lg py-6"
             />
 
             <p className="font-semibold" id="assessment-considerations">
