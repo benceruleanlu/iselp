@@ -13,7 +13,7 @@ const Page = () => {
   return (
     <>
       <NavBar />
-      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 max-w-[85%] lg:space-x-16 overflow-visible text-wrap'>
+      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 lg:space-x-16 overflow-visible text-wrap'>
         <div className='min-w-96 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'>
           <p className='font-bold text-lg'>Contents</p>
           <hr className='!mb-4'/>
@@ -35,13 +35,13 @@ const Page = () => {
           <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#footnotes" className='ml-2'>Footnotes</CustomLinkA></p>
         </div>
         <div className='flex flex-col mx-auto max-w-[92vw]'>
-          <p className='font-bold text-5xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>Portrait of a Learner Engaged in ISELP</p>
+          <p className='font-bold text-4xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>Portrait of a Learner Engaged in ISELP</p>
           <p className='text-slate-500 lg:text-lg mb-6'>Learn how to understand and support gifted learners, including their characteristics and potential challenges.</p>
 
           <div className='space-y-4'>
             <p className='text-gray-600	text-sm italic'>Note: While this section refers specifically to Giftedness, much of the information is applicable both to students who are identified as Exceptional Intellectual - Gifted, and to those students who are engaged in ISELP, but are receiving Non-Identified Special Education services.</p>
 
-            <p className='font-semibold text-xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
+            <p className='font-semibold text-2xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
             <hr />
 
             <p>The Ministry of Education defines Giftedness as &ldquo;[a]n unusually advanced degree of general intellectual ability that requires differentiated learning experiences of a depth and breadth beyond those normally provided in the regular school program to satisfy the level of educational potential indicated&rdquo; (Ministry of Education, 2017). For the purposes of the Peel District School Board, this is the definition that is used to describe our Gifted learners.</p>
@@ -82,7 +82,7 @@ const Page = () => {
             </ol>
 
             <br />
-            <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
+            <p className='font-semibold text-2xl lg:text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
               In-Depth
               <svg className={`w-6 h-6 transform transition-transform duration-300 ${isInDepthVisible ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </p>
@@ -230,7 +230,7 @@ const Page = () => {
             )}
 
             <br />
-            <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsFurtherReadingVisible(!isFurtherReadingVisible)} id='further-reading-and-resources'>
+            <p className='font-semibold text-2xl lg:text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsFurtherReadingVisible(!isFurtherReadingVisible)} id='further-reading-and-resources'>
               Further Reading and Resources
               <svg className={`w-6 h-6 transform transition-transform duration-300 ${isFurtherReadingVisible ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </p>

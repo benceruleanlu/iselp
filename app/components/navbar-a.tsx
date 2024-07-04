@@ -3,7 +3,7 @@ import HamburgerMenu from "./hamburgerMenu";
 
 const NavBar = () => {
   return (
-    <div className='flex flex-row justify-between min-w-screen py-4 xl:px-0 border-b max-w-[85%] mx-auto'>
+    <div className='flex flex-row justify-between min-w-screen py-4 w-11/12 mx-auto xl:px-0 border-b'>
         <div className='flex flex-row items-center'>
           <Link href="/" className='text-2xl lg:text-3xl lg:py-2 transition duration-300 ease-in-out transform hover:scale-105 hover:text-[#0066CC] font-semibold text-slate-950'>ISELP for Everyone</Link>
         </div>

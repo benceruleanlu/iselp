@@ -13,7 +13,7 @@ const Page = () => {
   return (
     <>
       <NavBar />
-      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 max-w-[85%] lg:space-x-16 overflow-visible text-wrap'>
+      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 lg:space-x-16 overflow-visible text-wrap'>
         <div className='min-w-96 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'>
           <p className='font-bold text-lg'>Contents</p>
           <hr className='!mb-4'/>
@@ -30,14 +30,14 @@ const Page = () => {
         </div>
         
         <div className='flex flex-col mx-auto max-w-[92vw]'>
-          <p className='font-bold text-5xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>Creating an ISELP Individual Education Plan</p>
+          <p className='font-bold text-4xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>Creating an ISELP Individual Education Plan</p>
           <p className='text-slate-500 lg:text-lg mb-6'>Learn how to tailor an Individualized Education lan (IEP) to meet the unique needs of gifted students.</p>
 
           <p className='text-gray-600	text-sm italic mb-4'>An alternative page (page 4) for students who are identified as Exceptional Intellectual - Gifted is to be a &lsquo;Gifted Plan&rsquo; page. An alternative page (page 4) for students who are receiving non-identified Special Education supports is to be an &lsquo;Enhanced Learning Plan&rsquo; page.</p>
 
           <div className='space-y-4'>
           
-          <p className='font-semibold text-xl lg:text-3xl' id='introduction'>Introduction</p>
+          <p className='font-semibold text-2xl lg:text-3xl' id='introduction'>Introduction</p>
           <hr />
 
           <p>Gifted students require programming that is tailored to their unique needs and as such require an Individualized Education Plan (IEP).</p>
@@ -58,7 +58,7 @@ const Page = () => {
             <p><a href="https://files.ontario.ca/edu-learning-for-all-2013-en-2022-01-28.pdf" target='_blank' className='text-[#0066CC] underline'>&lsquo;The Process of Developing an Individual Student Profile,&rsquo; Learning For All, p. 50, </a></p>
             
             <br />
-            <p className='font-semibold text-xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
+            <p className='font-semibold text-2xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
             <hr />
               <p>The learning process for students engaged in ISELP requires planning supports that will motivate and engage in order to further enhance the learning experience. As such, programming for these learners is instrumental to developing their fullest potential and to support growth. Developing the Individualized Education Plan (IEP) is the first step for schools to identify the learner&rsquo;s needs and to maximize the learner&rsquo;s abilities.</p>
               <p>Researchers have identified that Gifted students require a faster pace, work that is appropriately challenging, and the opportunity to engage in tasks that do not have a straightforward solution (Gomez-Arizaga et al, 2020). Students engaged in ISELP will not simply gain benefit from exploring a curriculum that is new to them. The greater cognitive skills demonstrated by these students will create ongoing demands on the need to provide programming suitable to their needs as a learner.</p>
@@ -78,7 +78,7 @@ const Page = () => {
                   <p>Students engaged in ISELP are most successful when they view their goals as meaningful, valuable, and relevant. It is important that the goals are individualized to the student, and created collaboratively with the student, the family/caregiver(s), and the teaching staff that work with the student.</p>
           
             <br />
-            <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
+            <p className='font-semibold text-2xl lg:text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
               In-Depth
               <svg className={`w-6 h-6 transform transition-transform duration-300 ${isInDepthVisible ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </p>
@@ -222,7 +222,7 @@ const Page = () => {
             )}
 
             <br />
-            <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsFurtherReadingVisible(!isFurtherReadingVisible)} id='further-reading-and-resources'>
+            <p className='font-semibold text-2xl lg:text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsFurtherReadingVisible(!isFurtherReadingVisible)} id='further-reading-and-resources'>
               Further Reading and Resources
               <svg className={`w-6 h-6 transform transition-transform duration-300 ${isFurtherReadingVisible ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </p>

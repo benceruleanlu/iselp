@@ -13,7 +13,7 @@ const Page = () => {
   return (
     <>
       <NavBar />
-      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 max-w-[85%] lg:space-x-16 overflow-visible text-wrap'>
+      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 lg:space-x-16 overflow-visible text-wrap'>
         <div className='min-w-96 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'>
           <p className='font-bold text-lg'>Contents</p>
           <hr className='!mb-4'/>
@@ -28,11 +28,11 @@ const Page = () => {
           <p onClick={() => setIsFurtherReadingVisible(true)}><CustomLinkA href="#further-reading-and-resources" className='font-semibold'>Further Reading and Resources</CustomLinkA></p>
         </div>
         <div className='flex flex-col mx-auto max-w-[92vw]'>
-          <p className='font-bold text-5xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>ISELP and Other Exceptionalities/Diagnoses</p>
+          <p className='font-bold text-4xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>ISELP and Other Exceptionalities / Diagnoses</p>
           <p className='text-slate-500 lg:text-lg mb-6'>Learn how to support Dual Exceptional students with additional diagnoses or exceptionalities.</p>
 
           <div className='space-y-4'>
-            <p className='font-semibold text-xl lg:text-3xl' id='introduction'>Introduction</p>
+            <p className='font-semibold text-2xl lg:text-3xl' id='introduction'>Introduction</p>
             <hr />
 
             <p>For our purposes in this resource, “Dual Exceptional” will refer to a student who is identified as Exceptional Intellectual - Gifted, and who has other diagnoses or exceptionalities, which may or may not be identified.</p>
@@ -44,7 +44,7 @@ const Page = () => {
             <p>The term Dual Identified or &lsquo;Twice Exceptional&rsquo; - often abbreviated as &lsquo;2e&rsquo; (typically in American research and literature) - is used to identify a group of students who are exceptional because they may have one or more diagnoses and/or exceptionalities in addition to being identified as Gifted. These students will possess superior intellectual abilities, coupled with one or more learning difficulties. Dual identified students can be overlooked, misclassified, neglected, or not receive the proper programming as the characteristics of one exceptionality can mask those of the other and the student appears as average in their school achievement. These students can be misunderstood as one exceptionality hides the other. Dual Identified students require a Special Education placement and additional support, such as extensions in their programming to reach their academic and social-emotional potential.</p>
 
             <br />
-            <p className='font-semibold text-xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
+            <p className='font-semibold text-2xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
             <hr />
 
             <p>Some students identified as Gifted by an IPRC have more than one exceptionality, and some students engaged in ISELP may also have other exceptionalities as part of their portrait as a learner. These are know as Dual Identified learners.</p>
@@ -76,7 +76,7 @@ const Page = () => {
             </ol>
 
             <br />
-            <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
+            <p className='font-semibold text-2xl lg:text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
               In-Depth
               <svg className={`w-6 h-6 transform transition-transform duration-300 ${isInDepthVisible ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </p>
@@ -183,7 +183,7 @@ const Page = () => {
             )}
 
             <br />
-            <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsFurtherReadingVisible(!isFurtherReadingVisible)} id='further-reading-and-resources'>
+            <p className='font-semibold text-2xl lg:text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsFurtherReadingVisible(!isFurtherReadingVisible)} id='further-reading-and-resources'>
               Further Reading and Resources
               <svg className={`w-6 h-6 transform transition-transform duration-300 ${isFurtherReadingVisible ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
             </p>

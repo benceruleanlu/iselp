@@ -12,7 +12,7 @@ const Page = () => {
     return (
         <>
             <NavBar />
-            <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 max-w-[85%] lg:space-x-16 overflow-visible text-wrap'>
+            <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 lg:space-x-16 overflow-visible text-wrap'>
                 <div className='min-w-96 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'>
                     <p className='font-bold text-lg'>Contents</p>
                     <hr className='!mb-4'/>
@@ -25,11 +25,11 @@ const Page = () => {
                 </div>
 
                 <div className='flex flex-col mx-auto max-w-[92vw]'>
-                    <p className='font-bold text-5xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>The Role Of The Classroom Teacher In ISELP</p>
+                    <p className='font-bold text-4xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>The Role Of The Classroom Teacher In ISELP</p>
                     <p className='text-slate-500 lg:text-lg mb-6'>Learn how to effectively engage and challenge learners in ISELP with specific classroom strategies.</p>
                     
                     <div className='space-y-4'>
-                        <p className='font-semibold text-xl lg:text-3xl' id='introduction'>Introduction</p>
+                        <p className='font-semibold text-2xl lg:text-3xl' id='introduction'>Introduction</p>
                         <hr />
                         <p className='font-semibold'>Keeping Students Engaged and Challenged</p>
                         <p>Accommodating learners engaged in ISELP differs somewhat from supporting students with other exceptionalities and/or needs. Allowing the learner the opportunity to engage in meaningful learning is critical in their development. This, of course, is true of all students. As such, this section describes how teachers can work to effectively accommodate these students in the classroom and with specific strategies.</p>
@@ -43,7 +43,7 @@ const Page = () => {
                         </ol>
 
                         <br />
-                        <p className='font-semibold text-xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
+                        <p className='font-semibold text-2xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
                         <hr />
                         <p>Students engaged in ISELP need to take part in meaningful learning with the aim of working toward greater depth and breadth of concepts being taught during class time.</p>
                         <p>Early in a given school year, it is advisable that the classroom teacher collaborate with the ISSP teacher to build a comprehensive student portrait, based on the input from the student, family/caregiver(s), and all educators, in order get a sense of what the student&rsquo;s strengths and preferences for extensions are to meet the accommodations set in their IEP.</p>
@@ -64,7 +64,7 @@ const Page = () => {
                             <p>Many strategies may work differently within different subjects and will depend on the teacher and the student. Typically, extensions focus on the idea of developing various skills with students engaged in ISELP. Many of the practices focus on building critical thinking and analytical skills while helping students self-advocate and work towards collective and self-directed learning. Additionally, opportunities for extensions should work to foster the opportunity to explore subject expectations in greater depth and breadth.</p>
 
                             <br />
-                            <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
+                            <p className='font-semibold text-2xl lg:text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
                                 In-Depth
                                 <svg className={`w-6 h-6 transform transition-transform duration-300 ${isInDepthVisible ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
                             </p>

@@ -12,7 +12,7 @@ const Page = () => {
   return (
     <>
       <NavBar />
-      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 max-w-[85%] lg:space-x-16 overflow-visible text-wrap'>
+      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 lg:space-x-16 overflow-visible text-wrap'>
         <div className='min-w-96 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'>
           <p className='font-bold text-lg'>Contents</p>
           <hr className='!mb-4'/>
@@ -29,12 +29,12 @@ const Page = () => {
         </div>
 
           <div className='flex flex-col mx-auto max-w-[92vw]'>
-            <p className='font-bold text-5xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>The Role Of School-Based Support Staff in ISELP</p>
+            <p className='font-bold text-4xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>The Role Of School-Based Support Staff in ISELP</p>
             <p className='text-slate-500 lg:text-lg mb-6'>Learn how to effectively implement and support the ISELP program in a regular classroom setting.</p>
             
             <div className='space-y-4'>
               
-              <p className='font-semibold text-xl lg:text-3xl' id='introduction'>Introduction</p>
+              <p className='font-semibold text-2xl lg:text-3xl' id='introduction'>Introduction</p>
               <hr />
 
                 <p>The majority of ISELP implementation should take place in the student&rsquo;s regular classroom. However, the development of the initial ISELP program, the regular review of the program, and updates to the program (as needed), are usually coordinated by the ISSP teacher. Key aspects of the ISSP teacher&rsquo;s role as it relates to supporting the student engaged in ISELP include the following:</p>
@@ -63,7 +63,7 @@ const Page = () => {
                 <p>As the learner engaged in ISELP will often learn faster, and can form an elaborate and differentiated knowledge of a topic, more so than the learner who does not require the support of ISELP programming, there are some specific strategies and tips for the ISSP teacher to consider in order to provide adequate and useful support. This section offers tips and consideration for monitoring the progress of the learner engaged in ISELP and for supporting teachers in offering effective programming.</p>
               
               <br />
-              <p className='font-semibold text-xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
+              <p className='font-semibold text-2xl lg:text-3xl' id='summary-and-highlights'>Summary and Highlights</p>
               <hr />
 
                 <p>Monitoring the progress of the learner engaged in ISELP is necessary to provide the appropriate academic and socio-emotional support to ensure success.</p>
@@ -88,7 +88,7 @@ const Page = () => {
                     <p>It&rsquo;s also important to recognize that Gifted learners often face challenges in this decision-making due to their diverse interests, talents, and family expectations. Goal setting becomes a key component in gathering student input for their Individual Education Plan (IEP) annually. These students, often high achievers with extensive extracurricular involvement, need guidance to evaluate educational programs that align with their interests and learning profile, while also exploring additional opportunities without overextending themselves.</p>
               
               <br />
-              <p className='font-semibold text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
+              <p className='font-semibold text-2xl lg:text-3xl cursor-pointer dropdown-title flex items-center justify-between hover:lg:underline' onClick={() => setIsInDepthVisible(!isInDepthVisible)} id='in-depth'>
                 In-Depth
                 <svg className={`w-6 h-6 transform transition-transform duration-300 ${isInDepthVisible ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
               </p>
