@@ -27,7 +27,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mx-auto mb-10 flex flex-row flex-wrap justify-center">
+        <div className="mx-auto mb-4 flex flex-row flex-wrap justify-center">
           <Card
             title="Portrait of a Learner Engaged in ISELP"
             subtitle="Learn how to understand and support gifted learners, including their characteristics and potential challenges."

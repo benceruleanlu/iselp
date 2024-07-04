@@ -7,7 +7,7 @@ const Page = () => {
     <>
       <NavBar />
       <main>
-        <div className="flex flex-col items-start space-y-8 bg-[#0066CC] p-8 text-left text-slate-50 md:py-12">
+        <div className="flex flex-col items-start space-y-8 bg-[#0066CC] p-8 text-left text-slate-50 md:py-20">
           <p className="max-w-[90vw] text-4xl font-bold md:max-w-[70vw] md:text-5xl lg:text-7xl">
             What would you like to learn today?
           </p>

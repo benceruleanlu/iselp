@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="mx-auto mt-16 mb-8 flex w-11/12 flex-row items-center justify-between border-t">
+    <div className="mx-auto mb-8 flex w-11/12 flex-row items-center justify-between border-t">
       <div className="flex flex-col">
         <a href="https://www.peelschools.org/" target="_blank">
           <Image
