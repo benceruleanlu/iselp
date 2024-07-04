@@ -1,10 +1,6 @@
 "use client";
 
-import Image from "next/image";
-import CustomLink from "../components/customlink";
-import CustomLinkA from "../components/customlink-a";
 import NavBar from "../components/navbar-a";
-import { useState } from "react";
 
 const Page = () => {
   return (
