@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import HamburgerMenu from "./hamburgerMenu";
 
 const NavBar = () => {
   return (
@@ -10,6 +11,9 @@ const NavBar = () => {
             <Link href="/references-resources-and-further-reading" className='transition duration-300 ease-in-out transform hover:scale-105 hover:text-[#0066CC]'>Resources</Link>
             <Link href="/about" className='transition duration-300 ease-in-out transform hover:scale-105 hover:text-[#0066CC]'>About</Link>
             <Link href="/help" className='transition duration-300 ease-in-out transform hover:scale-105 hover:text-[#0066CC]'>Help</Link>
+        </div>
+        <div className='md:hidden'>
+          <HamburgerMenu />
         </div>
     </div>
   );
