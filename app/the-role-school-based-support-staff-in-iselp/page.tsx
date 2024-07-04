@@ -12,8 +12,8 @@ const Page = () => {
   return (
     <>
       <NavBar />
-      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 max-w-6xl lg:space-x-16 overflow-visible text-wrap'>
-        <div className='min-w-56 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'>
+      <div className='flex flex-row w-11/12 mx-auto my-6 lg:mt-8 lg:mb-16 max-w-[85%] lg:space-x-16 overflow-visible text-wrap'>
+        <div className='min-w-96 text-nowrap truncate space-y-2 sticky top-8 h-full *:truncate text-sm hidden lg:block'>
           <p className='font-bold text-lg'>Contents</p>
           <hr className='!mb-4'/>
           <p><CustomLinkA href="#introduction" className="font-semibold">Introduction</CustomLinkA></p>
@@ -29,7 +29,7 @@ const Page = () => {
         </div>
 
           <div className='flex flex-col mx-auto max-w-[92vw]'>
-            <p className='font-bold text-3xl lg:text-4xl text-slate-950 mb-4 tracking-tight'>The Role Of School-Based Support Staff in ISELP</p>
+            <p className='font-bold text-5xl lg:text-5xl text-slate-950 mb-4 tracking-tight'>The Role Of School-Based Support Staff in ISELP</p>
             <p className='text-slate-500 lg:text-lg mb-6'>Learn how to effectively implement and support the ISELP program in a regular classroom setting.</p>
             
             <div className='space-y-4'>
