@@ -35,6 +35,11 @@ const MyComponent = () => {
         </div>
         <hr className="mb-6 mt-1" />
         <ol className="space-y-4">
+         <li>
+            <Link href="/" className="text-lg" onClick={toggleOpen}>
+              Home
+            </Link>
+          </li>
           <li>
             <Link
               href="/references-resources-and-further-reading"
