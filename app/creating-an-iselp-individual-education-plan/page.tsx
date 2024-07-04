@@ -12,7 +12,7 @@ const Page = () => {
   return (
     <>
       <NavBar />
-      <div className="mx-auto mb-12 my-6 flex w-11/12 flex-row overflow-visible text-wrap lg:mb-16 lg:mt-8 lg:space-x-16">
+      <div className="mx-auto my-6 mb-12 flex w-11/12 flex-row overflow-visible text-wrap lg:mb-16 lg:mt-8 lg:space-x-16">
         <div className="sticky top-8 hidden h-full min-w-96 space-y-2 truncate text-nowrap text-sm *:truncate lg:block">
           <p className="text-lg font-bold">Contents</p>
           <hr className="!mb-4" />
@@ -368,7 +368,7 @@ const Page = () => {
                   width={800}
                   height={600}
                   alt="Characteristics of Gifted Learners"
-                  className="mx-auto max-h-[800px] max-w-[600px] overflow-x-auto rounded-lg py-6"
+                  className="max-w-screen mx-auto max-h-[800px] overflow-x-auto rounded-lg py-6"
                 />
                 <p className="text-xs text-slate-500">
                   Figure 1 - Adapted from{" "}

@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <>
       <NavBar />
-      <div className="mx-auto mb-12 my-6 flex w-11/12 flex-row overflow-visible text-wrap lg:mb-16 lg:mt-8 lg:space-x-16">
+      <div className="mx-auto my-6 mb-12 flex w-11/12 flex-row overflow-visible text-wrap lg:mb-16 lg:mt-8 lg:space-x-16">
         <div className="mx-auto flex max-w-[92vw] flex-col">
           <p className="mb-4 text-4xl font-bold tracking-tight text-slate-950 lg:text-5xl">
             References, Resources, and Further Reading
