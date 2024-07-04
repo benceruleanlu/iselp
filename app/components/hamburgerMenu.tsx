@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 const MyComponent = () => {
-  const [open, setOpen] = useState(false); // Start closed
+  const [open, setOpen] = useState(false);
   const toggleOpen = () => setOpen(!open);
 
   return (
@@ -39,17 +39,18 @@ const MyComponent = () => {
             <Link
               href="/references-resources-and-further-reading"
               className="text-lg"
+              onClick={toggleOpen}
             >
               Resources
             </Link>
           </li>
           <li>
-            <Link href="/about" className="text-lg">
+            <Link href="/about" className="text-lg" onClick={toggleOpen}>
               About
             </Link>
           </li>
           <li>
-            <Link href="/help" className="text-lg">
+            <Link href="/help" className="text-lg" onClick={toggleOpen}>
               Help
             </Link>
           </li>
