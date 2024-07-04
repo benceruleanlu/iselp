@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode } from "react";
 
 interface CustomLinkAProps {
   href: string;
@@ -6,14 +6,20 @@ interface CustomLinkAProps {
   children: ReactNode;
 }
 
-const CustomLinkA: React.FC<CustomLinkAProps> = ({ href, className, children }) => {
-  const handleClick = async (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+const CustomLinkA: React.FC<CustomLinkAProps> = ({
+  href,
+  className,
+  children,
+}) => {
+  const handleClick = async (
+    e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+  ) => {
     e.preventDefault();
-    await new Promise(resolve => setTimeout(resolve, 1));
-    const id = href.replace('#', '');
+    await new Promise((resolve) => setTimeout(resolve, 1));
+    const id = href.replace("#", "");
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({behavior: 'smooth'});
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 

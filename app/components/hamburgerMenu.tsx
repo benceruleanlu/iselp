@@ -21,7 +21,7 @@ const MyComponent = () => {
         <rect y="60" width="100" height="10" rx="5" ry="5"></rect>
       </svg>
       <div
-        className={`fixed right-0 top-0 transform ${open ? "translate-x-0" : "translate-x-full"} flex h-screen w-screen flex-col bg-[#06C] p-12 transition-transform duration-300 ease-in-out text-slate-50 z-50`}
+        className={`fixed right-0 top-0 transform ${open ? "translate-x-0" : "translate-x-full"} z-50 flex h-screen w-screen flex-col bg-[#06C] p-12 text-slate-50 transition-transform duration-300 ease-in-out`}
       >
         <div className="flex flex-row items-center justify-between">
           <p className="text-2xl font-semibold">Navigation</p>
@@ -35,9 +35,24 @@ const MyComponent = () => {
         </div>
         <hr className="mb-6 mt-1" />
         <ol className="space-y-4">
-          <li><Link href="/references-resources-and-further-reading" className='text-lg'>Resources</Link></li>
-          <li><Link href="/about" className='text-lg'>About</Link></li>
-          <li><Link href="/help" className='text-lg'>Help</Link></li>
+          <li>
+            <Link
+              href="/references-resources-and-further-reading"
+              className="text-lg"
+            >
+              Resources
+            </Link>
+          </li>
+          <li>
+            <Link href="/about" className="text-lg">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link href="/help" className="text-lg">
+              Help
+            </Link>
+          </li>
         </ol>
       </div>
     </>

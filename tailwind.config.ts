@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        'custom-footer': '1120px',
+        "custom-footer": "1120px",
       },
     },
   },
