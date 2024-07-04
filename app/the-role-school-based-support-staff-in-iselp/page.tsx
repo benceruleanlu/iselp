@@ -178,7 +178,7 @@ const Page = () => {
               width={900}
               height={700}
               alt="Characteristics of Gifted Learners"
-              className="mx-auto max-h-[900px] max-w-[700px] overflow-x-auto rounded-lg py-6"
+              className="mx-auto max-h-[900px] max-w-screen overflow-x-auto rounded-lg py-6"
             />
             <p>
               As the learner engaged in ISELP will often learn faster, and can
