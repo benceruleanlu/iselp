@@ -23,8 +23,8 @@ export const Search = () => {
       </div>
     </InstantSearch>
   );
- 
-  function EmptyQueryBoundary({ children, fallback }) {
+  
+  function EmptyQueryBoundary({ children, fallback }: { children: any, fallback: any }) {
     const { indexUiState } = useInstantSearch();
   
     if (!indexUiState.query) {
