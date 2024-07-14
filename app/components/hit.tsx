@@ -9,7 +9,7 @@ export const Hit: React.FC<{ hit: any }> = ({ hit }) => {
 				<Highlight attribute="article_title" hit={hit} />
 			</div>
 			<div className="hit-heading">
-				<Highlight attribute="overview" hit={hit} />
+				<Highlight attribute="heading" hit={hit} />
 			</div>
 			<div className="hit-text">
 				<Snippet attribute="text" hit={hit} />
