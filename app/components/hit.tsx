@@ -1,9 +1,7 @@
 import { Highlight, Snippet } from "react-instantsearch";
-import { getPropertyByPath } from 'instantsearch.js/es/lib/utils';
 import Link from "next/link";
 
 export const Hit: React.FC<{ hit: any }> = ({ hit }) => {
-  // Construct the URL
   const url = `https://iselp.vercel.app/${hit.url}`;
   
   return (

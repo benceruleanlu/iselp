@@ -1,6 +1,5 @@
 import Card from "./components/card";
 import Navbar from "./components/navbar";
-import Link from "next/link";
 import { Search } from "./components/search";
 
 export default function Home() {
@@ -13,9 +12,6 @@ export default function Home() {
             What would you like to learn today?
           </p>
           <Search />
-          <Link href="/help" className="hidden underline lg:block">
-            How to use this resource --&gt;
-          </Link>
         </div>
 
         <div className="-mb mx-auto mb-4 mt-8 max-w-[90vw] text-center md:max-w-[40vw] lg:mb-10 lg:mt-16">

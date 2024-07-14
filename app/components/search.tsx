@@ -2,7 +2,7 @@
 
 import algoliasearch from "algoliasearch/lite";
 import "instantsearch.css/themes/satellite.css";
-import { Hits, InstantSearch, SearchBox, Configure } from "react-instantsearch";
+import { Hits, InstantSearch, SearchBox, Configure, useInstantSearch } from "react-instantsearch";
 
 import { Hit } from "./hit";
 
@@ -14,11 +14,28 @@ export const Search = () => {
       searchClient={searchClient}
       indexName="iselp"
     >
-      <Configure hitsPerPage={3} />
+      <Configure hitsPerPage={5} />
       <div className="ais-InstantSearch">
-        <SearchBox />
-        <Hits hitComponent={Hit} />
+        <SearchBox placeholder="Search here..."/>
+        <EmptyQueryBoundary fallback={null}>
+          <Hits hitComponent={Hit} />
+        </EmptyQueryBoundary>
       </div>
     </InstantSearch>
   );
+ 
+  function EmptyQueryBoundary({ children, fallback }) {
+    const { indexUiState } = useInstantSearch();
+  
+    if (!indexUiState.query) {
+      return (
+        <>
+          {fallback}
+          <div hidden>{children}</div>
+        </>
+      );
+    }
+  
+    return children;
+  }
 };

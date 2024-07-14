@@ -4,6 +4,15 @@
 
 .ais-SearchBox {
   margin-bottom: 1em;
+  /* border-radius: 50px; */
+}
+
+.ais-SearchBox-form {
+  border-radius: 100px;
+}
+
+.ais-SearchBox-input {
+  border-radius: 100px !important;
 }
 
 .ais-InstantSearch {
