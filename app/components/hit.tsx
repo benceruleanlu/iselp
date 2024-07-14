@@ -1,18 +1,24 @@
 import { Highlight, Snippet } from "react-instantsearch";
 import { getPropertyByPath } from 'instantsearch.js/es/lib/utils';
+import Link from "next/link";
 
 export const Hit: React.FC<{ hit: any }> = ({ hit }) => {
+  // Construct the URL
+  const url = `https://iselp.vercel.app/${hit.url}`;
+  
   return (
-    <article>
-      <div className="hit-article_title">
-        <Highlight attribute="article_title" hit={hit} />
+    <Link href={url}>
+      <div>
+        <div className="hit-article_title">
+          <Highlight attribute="article_title" hit={hit} />
+        </div>
+        <div className="hit-heading">
+          <Highlight attribute="heading" hit={hit} />
+        </div>
+        <div className="hit-text">
+          <Snippet attribute="text" hit={hit} />
+        </div>
       </div>
-      <div className="hit-heading">
-        <Highlight attribute="heading" hit={hit} />
-      </div>
-      <div className="hit-text">
-        <Snippet attribute="text" hit={hit} />
-      </div>
-    </article>
+    </Link>
   );
 };
