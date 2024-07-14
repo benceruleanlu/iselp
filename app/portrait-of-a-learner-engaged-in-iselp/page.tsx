@@ -14,7 +14,7 @@ const Page = () => {
     <>
       <NavBar />
       <div className="mx-auto my-6 mb-12 flex w-11/12 flex-row overflow-visible text-wrap lg:mb-16 lg:mt-8 lg:space-x-16">
-        <div className="sticky top-8 hidden h-full min-w-96 space-y-2 truncate text-nowrap text-sm *:truncate lg:block">
+        <div className="sticky top-8 hidden h-full min-w-64 space-y-2 truncate text-nowrap text-sm *:truncate lg:block">
           <p className="text-lg font-bold">Contents</p>
           <hr className="!mb-4" />
           <p>

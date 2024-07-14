@@ -1,7 +1,7 @@
 import Card from "./components/card";
 import Navbar from "./components/navbar";
 import Link from "next/link";
-import SearchBar from "./components/searchbar";
+import { Search } from "./components/search";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
           <p className="max-w-[90vw] text-4xl font-bold tracking-tight md:max-w-[70vw] md:text-5xl lg:text-7xl">
             What would you like to learn today?
           </p>
-          <SearchBar />
+          <Search />
           <Link href="/help" className="hidden underline lg:block">
             How to use this resource --&gt;
           </Link>
