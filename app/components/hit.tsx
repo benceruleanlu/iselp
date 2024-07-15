@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Hit: React.FC<{ hit: any }> = ({ hit }) => {
   const url = `https://iselp.vercel.app/${hit.url}`;
-  
+
   return (
     <Link href={url}>
       <div>
