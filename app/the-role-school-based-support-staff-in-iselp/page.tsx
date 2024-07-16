@@ -43,7 +43,7 @@ const Page = () => {
           </p>
           <p onClick={() => setIsInDepthVisible(true)}>
             <CustomLinkA
-              href="#withdrawal-supports-(as needed)"
+              href="#withdrawal-supports-(as-needed)"
               className="ml-2"
             >
               Withdrawal supports (as needed)
@@ -412,7 +412,7 @@ const Page = () => {
 
                 <p
                   className="text-xl font-semibold"
-                  id="withdrawal-supports-(as needed)"
+                  id="withdrawal-supports-(as-needed)"
                 >
                   Withdrawal supports (as needed)
                 </p>
