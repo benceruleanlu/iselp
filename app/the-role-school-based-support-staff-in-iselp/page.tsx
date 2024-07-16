@@ -35,7 +35,7 @@ const Page = () => {
           </p>
           <p onClick={() => setIsInDepthVisible(true)}>
             <CustomLinkA
-              href="#supporting-program extensions-and-differentiation-1"
+              href="#supporting-program-extensions-and-differentiation-1"
               className="ml-2"
             >
               Supporting program extensions and differentiation
@@ -319,7 +319,7 @@ const Page = () => {
               <>
                 <p
                   className="text-xl font-semibold"
-                  id="supporting-program extensions-and-differentiation-1"
+                  id="supporting-program-extensions-and-differentiation-1"
                 >
                   Supporting program extensions and differentiation
                 </p>
